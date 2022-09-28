@@ -10,9 +10,16 @@ public class DialogueGraphView : GraphView
     private readonly Vector2 defaultSize = new Vector2(150,200);
     public DialogueGraphView()
     {
+        styleSheets.Add(Resources.Load<StyleSheet>("DialogueGraph"));
+        SetupZoom(ContentZoomer.DefaultMinScale, ContentZoomer.DefaultMaxScale);
+
         this.AddManipulator(new ContentDragger());
         this.AddManipulator(new SelectionDragger());
         this.AddManipulator(new RectangleSelector());
+
+        var grid = new GridBackground();
+        Insert(0, grid);
+        grid.StretchToParentSize();
         AddElement(GenerateEntryPointNode());
     }
     private Port GeneratePort(DialogueNode node,Direction portDirection,Port.Capacity capacity = Port.Capacity.Single)
