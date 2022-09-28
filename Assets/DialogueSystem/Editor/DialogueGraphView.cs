@@ -7,6 +7,7 @@ using System;
 
 public class DialogueGraphView : GraphView
 {
+    private readonly Vector2 defaultSize = new Vector2(150,200);
     public DialogueGraphView()
     {
         this.AddManipulator(new ContentDragger());
@@ -37,5 +38,41 @@ public class DialogueGraphView : GraphView
 
         node.SetPosition(new Rect(100, 200, 100, 150));
         return node;
+    }
+    public void CreateNode(string nodeName) 
+    {
+        AddElement(createDialogueNode(nodeName));
+    }
+    public DialogueNode createDialogueNode(string nodeName)
+    {
+        var dialogeNode = new DialogueNode
+        {
+            title = nodeName,
+            DialogueText = nodeName,
+            GUID = Guid.NewGuid().ToString()
+        };
+        var inputPort = GeneratePort(dialogeNode,Direction.Input,Port.Capacity.Multi);
+        inputPort.name = "Input";
+
+        dialogeNode.inputContainer.Add(inputPort);
+
+        dialogeNode.RefreshExpandedState();//Solo es visual
+        dialogeNode.RefreshPorts();//Solo es visual
+
+        dialogeNode.SetPosition(new Rect(Vector2.zero,defaultSize));
+
+        return dialogeNode;
+    }
+    public override List<Port> GetCompatiblePorts(Port startPort, NodeAdapter nodeAdapter)
+    {//este metodo es el que acepta que al arrastrar la flecha se atache al puerto, util en shader graph aqui solo miraremos de conectarnos a nosotros
+        var compatiblePorts = new List<Port>();
+        ports.ForEach(port => 
+        {
+            if(startPort!=port && startPort.node != port.node)
+            {
+                compatiblePorts.Add(port);
+            }
+        });
+        return compatiblePorts;
     }
 }
