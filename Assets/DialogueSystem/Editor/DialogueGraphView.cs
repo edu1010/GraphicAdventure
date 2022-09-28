@@ -32,13 +32,30 @@ public class DialogueGraphView : GraphView
         generatedPort.name = "Next";
         node.outputContainer.Add(generatedPort);
 
-        node.RefreshExpandedState();//Solo es visual
+        var button = new Button(() => { AddChoicePort(node); });
+        button.text = "New answer";
+        node.titleContainer.Add(button);
+
         node.RefreshPorts();//Solo es visual
+        node.RefreshExpandedState();//Solo es visual
+        
 
 
         node.SetPosition(new Rect(100, 200, 100, 150));
         return node;
     }
+
+    private void AddChoicePort(DialogueNode node)
+    {
+        var generatedPort = GeneratePort(node,Direction.Output);
+        var outputPortCount = node.outputContainer.Query("connector").ToList().Count;
+        var outputPortName = $"Choice {outputPortCount}";
+        node.outputContainer.Add(generatedPort);
+        node.RefreshPorts();//Solo es visual
+        node.RefreshExpandedState();//Solo es visual
+        
+    }
+
     public void CreateNode(string nodeName) 
     {
         AddElement(createDialogueNode(nodeName));
