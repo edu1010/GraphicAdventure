@@ -15,15 +15,20 @@ public class DialogueGraph : EditorWindow
     }
     private void OnEnable()
     {
-        graphView = new DialogueGraphView 
+        ContructGraphView();
+    }
+    private void OnDisable()
+    {
+        rootVisualElement.Remove(graphView);
+    }
+
+    private void ContructGraphView()
+    {
+        graphView = new DialogueGraphView
         {
             name = "Dialogue graph"
         };
         graphView.StretchToParentSize();
         rootVisualElement.Add(graphView);
-    }
-    private void OnDisable()
-    {
-        rootVisualElement.Remove(graphView);
     }
 }

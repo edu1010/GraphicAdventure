@@ -14,7 +14,10 @@ public class DialogueGraphView : GraphView
         this.AddManipulator(new RectangleSelector());
         AddElement(GenerateEntryPointNode());
     }
-
+    private Port GeneratePort(DialogueNode node,Direction portDirection,Port.Capacity capacity = Port.Capacity.Single)
+    {
+        return node.InstantiatePort(Orientation.Horizontal, portDirection, capacity, typeof(string));
+    }
     private DialogueNode GenerateEntryPointNode()
     {
         var node = new DialogueNode
@@ -24,6 +27,14 @@ public class DialogueGraphView : GraphView
             DialogueText = "ENTRYPOINT",
             EntryPoint = true
         };
+        var generatedPort = GeneratePort(node, Direction.Output);
+        generatedPort.name = "Next";
+        node.outputContainer.Add(generatedPort);
+
+        node.RefreshExpandedState();//Solo es visual
+        node.RefreshPorts();//Solo es visual
+
+
         node.SetPosition(new Rect(100, 200, 100, 150));
         return node;
     }
