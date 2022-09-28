@@ -32,9 +32,7 @@ public class DialogueGraphView : GraphView
         generatedPort.name = "Next";
         node.outputContainer.Add(generatedPort);
 
-        var button = new Button(() => { AddChoicePort(node); });
-        button.text = "New answer";
-        node.titleContainer.Add(button);
+        
 
         node.RefreshPorts();//Solo es visual
         node.RefreshExpandedState();//Solo es visual
@@ -49,10 +47,11 @@ public class DialogueGraphView : GraphView
     {
         var generatedPort = GeneratePort(node,Direction.Output);
         var outputPortCount = node.outputContainer.Query("connector").ToList().Count;
-        var outputPortName = $"Choice {outputPortCount}";
+        generatedPort.portName= $"Choice {outputPortCount}";
         node.outputContainer.Add(generatedPort);
-        node.RefreshPorts();//Solo es visual
         node.RefreshExpandedState();//Solo es visual
+        node.RefreshPorts();//Solo es visual
+        
         
     }
 
@@ -72,6 +71,9 @@ public class DialogueGraphView : GraphView
         inputPort.name = "Input";
 
         dialogeNode.inputContainer.Add(inputPort);
+        var button = new Button(() => { AddChoicePort(dialogeNode); });
+        button.text = "New answer";
+        dialogeNode.titleContainer.Add(button);
 
         dialogeNode.RefreshExpandedState();//Solo es visual
         dialogeNode.RefreshPorts();//Solo es visual
