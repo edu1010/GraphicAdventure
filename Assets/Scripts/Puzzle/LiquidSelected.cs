@@ -25,7 +25,7 @@ public class LiquidSelected : MonoBehaviour
     public void ChangeSelected()
     {
         BlackBoardPuzzle1.Instance.drinksNameText.text = drinkName;
-        BlackBoardPuzzle1.Instance.drinksNameText.text = drinkDescription;
+        BlackBoardPuzzle1.Instance.drinksDescriptionText.text = drinkDescription;
         if (isBase)
         {
             BlackBoardPuzzle1.Instance.quadBase.GetComponent<Renderer>().material = liquidMat;

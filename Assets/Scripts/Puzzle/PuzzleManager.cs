@@ -28,21 +28,45 @@ public class PuzzleManager : MonoBehaviour
         }
     }
 
-    public void ButtonSpawnBase()
+    private bool servedBase, servedExtra, servedPossion = false;
+    public void ButtonSpawn()
     {
-        Spawn(particlesBase);
-    }
-    public void ButtonSpawnExtra()
-    {
-        Spawn(particlesExtra);
-    }
-    public void ButtonSpawnPosion()
-    {
-        Spawn(particlesPosion);
+        switch (BlackBoardPuzzle1.Instance.actualMenu)
+        {
+            case (BlackBoardPuzzle1.ActualMenu.Base):
+
+                if (!servedBase)
+                {
+                    Spawn(particlesBase);
+                    
+                    servedBase = true;
+                }
+                break;
+            case (BlackBoardPuzzle1.ActualMenu.Extra):
+
+                if (!servedExtra)
+                {
+                    Spawn(particlesExtra);
+                    servedExtra = true;
+                }
+                break;
+            case (BlackBoardPuzzle1.ActualMenu.Posion):
+                if (!servedPossion)
+                {
+                    Spawn(particlesPosion);
+                    
+                    servedPossion = true;
+                }
+                break;
+        }
+       
     }
 
     public void ButtonReset()
     {
+        servedBase   = false;
+        servedExtra  = false;
+        servedPossion= false;
         foreach (var go in particlesBase)
         {
             go.gameObject.SetActive(false);
