@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 5365892128327961987}
   - component: {fileID: 5365892128327961984}
   - component: {fileID: 5365892128327961985}
-  m_Layer: 6
-  m_Name: LiquidParticle
+  m_Layer: 8
+  m_Name: LiquidParticlePosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
