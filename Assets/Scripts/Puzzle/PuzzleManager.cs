@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PuzzleManager : MonoBehaviour
@@ -17,6 +19,11 @@ public class PuzzleManager : MonoBehaviour
         particlesBase =  poolBase.GetComponentsInChildren<Transform>();
         particlesExtra = poolExtra.GetComponentsInChildren<Transform>();
         particlesPosion = poolPosion.GetComponentsInChildren<Transform>();
+    }
+
+    public void OnEnable()
+    {
+        ButtonReset();
     }
 
     private void Spawn(Transform[] gameObjectsToSpawn)
