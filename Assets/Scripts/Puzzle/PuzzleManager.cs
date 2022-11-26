@@ -38,7 +38,7 @@ public class PuzzleManager : MonoBehaviour
                 if (!servedBase)
                 {
                     Spawn(particlesBase);
-                    
+                    BlackBoardPuzzle1.Instance.DesactiveBase();
                     servedBase = true;
                 }
                 break;
@@ -47,6 +47,8 @@ public class PuzzleManager : MonoBehaviour
                 if (!servedExtra)
                 {
                     Spawn(particlesExtra);
+                    
+                    BlackBoardPuzzle1.Instance.DesactiveExtra();
                     servedExtra = true;
                 }
                 break;
@@ -55,6 +57,7 @@ public class PuzzleManager : MonoBehaviour
                 {
                     Spawn(particlesPosion);
                     
+                    BlackBoardPuzzle1.Instance.DesactivePosion();
                     servedPossion = true;
                 }
                 break;
@@ -64,6 +67,9 @@ public class PuzzleManager : MonoBehaviour
 
     public void ButtonReset()
     {
+        BlackBoardPuzzle1.Instance.ActiveBase();
+        BlackBoardPuzzle1.Instance.ActiveExtra();
+        BlackBoardPuzzle1.Instance.ActivePossion();
         servedBase   = false;
         servedExtra  = false;
         servedPossion= false;
