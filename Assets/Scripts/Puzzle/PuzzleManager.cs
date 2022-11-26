@@ -9,7 +9,7 @@ public class PuzzleManager : MonoBehaviour
     private Transform[] particlesPosion;
     [SerializeField] private Transform spawnPos;
     [SerializeField] private GameObject poolBase, poolExtra, poolPosion;
-
+    public OutputPuzzle solution;
 
     // Start is called before the first frame update
     void Start()
@@ -78,6 +78,18 @@ public class PuzzleManager : MonoBehaviour
         foreach (var go in particlesPosion)
         {
             go.gameObject.SetActive(false);
+        }
+    }
+
+    public bool Entregar()
+    {
+        if (BlackBoardPuzzle1.Instance.selectedBase != solution.drinkBase && BlackBoardPuzzle1.Instance.selectedExtra != solution.drinkExtra)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
         }
     }
 }

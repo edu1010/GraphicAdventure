@@ -26,7 +26,7 @@ public class BlackBoardPuzzle1 : MonoBehaviour
     public TextMeshProUGUI drinksNameText;
     public GameObject quadBase, quadExtra, quadPosion;
     public DrinkBase selectedBase;
-    public DrinkBase selectedExtra;
+    public DrinkExtra selectedExtra;
     public bool possion;
     public ActualMenu actualMenu;
 
