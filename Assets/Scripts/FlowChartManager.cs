@@ -9,8 +9,20 @@ public class FlowChartManager : MonoBehaviour
 {
     public Flowchart fl;
     public GameObject[] goToActivegoToActive;
-    
 
+    public static FlowChartManager Instance;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     public void ActivePuzzle(OutputPuzzle ou)
     {
@@ -20,4 +32,19 @@ public class FlowChartManager : MonoBehaviour
             go.SetActive(true);
         }
     }
+
+    public void ResultPuzzle(bool correctDrink,bool possion)
+    {
+        if (correctDrink)
+        {
+            fl.SetBooleanVariable("correctDrink",correctDrink);
+            fl.SetBooleanVariable("possion",possion);
+        }
+        else
+        {
+            fl.SetBooleanVariable("correctDrink",correctDrink); 
+        }
+       
+    }
+    
 }
