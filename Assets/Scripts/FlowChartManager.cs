@@ -39,10 +39,13 @@ public class FlowChartManager : MonoBehaviour
         {
             fl.SetBooleanVariable("correctDrink",correctDrink);
             fl.SetBooleanVariable("possion",possion);
+            fl.SetBooleanVariable("finishPreparation",true);
+            
         }
         else
         {
             fl.SetBooleanVariable("correctDrink",correctDrink); 
+            fl.SetBooleanVariable("finishPreparation",true);
         }
        
     }
