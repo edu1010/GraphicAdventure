@@ -94,9 +94,31 @@ public class PuzzleManager : MonoBehaviour
         }
     }
 
+    public void ButtonIncrementDrink()
+    {
+        BlackBoardPuzzle1.Instance.DrinkSize += 1;
+        if (BlackBoardPuzzle1.Instance.DrinkSize > 2)
+        {
+            BlackBoardPuzzle1.Instance.DrinkSize = 2;
+        }
+
+        BlackBoardPuzzle1.Instance.sizeDrinks.text = BlackBoardPuzzle1.Instance.DrinkSize+"";
+    }
+    public void ButtonDecrementDrink()
+    {
+        BlackBoardPuzzle1.Instance.DrinkSize -= 1;
+        if (BlackBoardPuzzle1.Instance.DrinkSize > 1)
+        {
+            BlackBoardPuzzle1.Instance.DrinkSize = 1;
+        }
+        BlackBoardPuzzle1.Instance.sizeDrinks.text = BlackBoardPuzzle1.Instance.DrinkSize+"";
+    }
+
     public bool Entregar()
     {
-        if (BlackBoardPuzzle1.Instance.selectedBase != solution.drinkBase && BlackBoardPuzzle1.Instance.selectedExtra != solution.drinkExtra)
+        if (BlackBoardPuzzle1.Instance.selectedBase == solution.drinkBase 
+            && BlackBoardPuzzle1.Instance.selectedExtra == solution.drinkExtra
+            && BlackBoardPuzzle1.Instance.DrinkSize == solution.cantidad)
         {
             return true;
         }

@@ -9,5 +9,6 @@ public class OutputPuzzle : ScriptableObject
     public BlackBoardPuzzle1.DrinkBase drinkBase;
     public BlackBoardPuzzle1.DrinkExtra drinkExtra;
     public Sprite image;
-    
+    public int cantidad = 1;
+
 }

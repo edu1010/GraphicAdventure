@@ -30,13 +30,14 @@ public class BlackBoardPuzzle1 : MonoBehaviour
     public DrinkExtra selectedExtra;
     public bool possion;
     public ActualMenu actualMenu;
-
+    public int DrinkSize = 1;
     #region Canvas
 
     [FormerlySerializedAs("baseButtons")] public GameObject baseDrinks;
     [FormerlySerializedAs("extraButtons")] public GameObject extraDrinks;
     [FormerlySerializedAs("possionButtons")] public GameObject possionDrinks;
     private Button[] _desativeBaseButtons,_desactiveExtraDrinks,_desactivePossionDrinks;
+    public TextMeshProUGUI sizeDrinks;
     #endregion
 
     private void Start()
