@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4041ffd277f9b3e4991363b9b171bacb, type: 3}
-  m_Name: Drinks
+  m_Name: TequilaConManzana
   m_EditorClassIdentifier: 
   drinkBase: 0
   drinkExtra: 0
   image: {fileID: 0}
   cantidad: 1
   resultadoPositivo: CorrectPuzzle
-  resultadoNegativo: failPuzzle
+  resultadoNegativo: 

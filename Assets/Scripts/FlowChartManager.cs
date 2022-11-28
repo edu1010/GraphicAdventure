@@ -26,14 +26,16 @@ public class FlowChartManager : MonoBehaviour
 
     public void ActivePuzzle(OutputPuzzle ou)
     {
+       
         print(ou.drinkBase);
         foreach (var go in goToActivegoToActive)
         {
             go.SetActive(true);
         }
+        PuzzleManager.Instance.solution = ou;
     }
 
-    public void ResultPuzzle(bool correctDrink,bool possion)
+    public void ResultPuzzle(bool correctDrink,bool possion,string nextNode)
     {
         if (correctDrink)
         {
@@ -47,7 +49,12 @@ public class FlowChartManager : MonoBehaviour
             fl.SetBooleanVariable("correctDrink",correctDrink); 
             fl.SetBooleanVariable("finishPreparation",true);
         }
-       
+        foreach (var go in goToActivegoToActive)
+        {
+            go.SetActive(false);
+        }
+        fl.ExecuteBlock(nextNode);
+
     }
     
 }

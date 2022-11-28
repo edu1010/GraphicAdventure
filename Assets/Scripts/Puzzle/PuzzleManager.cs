@@ -12,6 +12,18 @@ public class PuzzleManager : MonoBehaviour
     [SerializeField] private Transform spawnPos;
     [SerializeField] private GameObject poolBase, poolExtra, poolPosion;
     public OutputPuzzle solution;
+    public static PuzzleManager Instance;
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -114,20 +126,20 @@ public class PuzzleManager : MonoBehaviour
         BlackBoardPuzzle1.Instance.sizeDrinks.text = BlackBoardPuzzle1.Instance.DrinkSize+"";
     }
 
-    public bool Entregar()
+    public void Entregar()
     {
         if (BlackBoardPuzzle1.Instance.selectedBase == solution.drinkBase 
             && BlackBoardPuzzle1.Instance.selectedExtra == solution.drinkExtra
             && BlackBoardPuzzle1.Instance.DrinkSize == solution.cantidad)
         {
 
-            FlowChartManager.Instance.ResultPuzzle(true,BlackBoardPuzzle1.Instance.possion);
-            return true;
+            FlowChartManager.Instance.ResultPuzzle(true,BlackBoardPuzzle1.Instance.possion, solution.resultadoPositivo);
+            
         }
         else
         {
-            FlowChartManager.Instance.ResultPuzzle(false,false);
-            return false;
+            FlowChartManager.Instance.ResultPuzzle(false,false, solution.resultadoNegativo);
+          
         }
     }
 }
