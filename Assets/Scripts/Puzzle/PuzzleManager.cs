@@ -120,10 +120,13 @@ public class PuzzleManager : MonoBehaviour
             && BlackBoardPuzzle1.Instance.selectedExtra == solution.drinkExtra
             && BlackBoardPuzzle1.Instance.DrinkSize == solution.cantidad)
         {
+
+            FlowChartManager.Instance.ResultPuzzle(true,BlackBoardPuzzle1.Instance.possion);
             return true;
         }
         else
         {
+            FlowChartManager.Instance.ResultPuzzle(false,false);
             return false;
         }
     }
