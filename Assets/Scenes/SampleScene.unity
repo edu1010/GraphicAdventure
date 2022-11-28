@@ -966,6 +966,8 @@ GameObject:
   - component: {fileID: 216937138}
   - component: {fileID: 216937137}
   - component: {fileID: 216937139}
+  - component: {fileID: 216937141}
+  - component: {fileID: 216937140}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -986,20 +988,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 248.90665, y: 319.81586}
+  scrollPos: {x: 284.2936, y: 367.18427}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.85000014
+  zoom: 0.7600002
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 216937138}
   selectedCommands: []
-  variables: []
+  variables:
+  - {fileID: 216937141}
+  - {fileID: 216937140}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1053,7 +1058,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -97.41203
     y: -27.996277
-    width: 111.17646
+    width: 109.64911
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1177,9 +1182,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 103.41802
+    x: 106.0496
     y: -37.997395
-    width: 117.450966
+    width: 115.78945
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1235,6 +1240,36 @@ MonoBehaviour:
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
+--- !u!114 &216937140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216937128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  key: possion
+  value: 0
+--- !u!114 &216937141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216937128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  key: correctDrink
+  value: 0
 --- !u!1001 &266817543
 PrefabInstance:
   m_ObjectHideFlags: 0
