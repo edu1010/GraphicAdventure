@@ -28,8 +28,8 @@ public class BlackBoardPuzzle1 : MonoBehaviour
     public GameObject quadBase, quadExtra, quadPosion;
     public DrinkBase selectedBase;
     public DrinkExtra selectedExtra;
-    public bool possion;
-    public ActualMenu actualMenu;
+    public bool possion =false;
+    public ActualMenu actualMenu = ActualMenu.Base;
     public int DrinkSize = 1;
     #region Canvas
 

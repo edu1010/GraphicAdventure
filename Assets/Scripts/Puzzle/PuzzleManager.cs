@@ -6,11 +6,11 @@ using UnityEngine;
 
 public class PuzzleManager : MonoBehaviour
 {
-    private Transform[] particlesBase;
-    private Transform[] particlesExtra;
-    private Transform[] particlesPosion;
+    public Transform[] particlesBase;
+    public Transform[] particlesExtra;
+    public Transform[] particlesPosion;
     [SerializeField] private Transform spawnPos;
-    [SerializeField] private GameObject poolBase, poolExtra, poolPosion;
+    //[SerializeField] private GameObject poolBase, poolExtra, poolPosion;
     public OutputPuzzle solution;
     public static PuzzleManager Instance;
     private void Awake()
@@ -28,13 +28,19 @@ public class PuzzleManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        particlesBase =  poolBase.GetComponentsInChildren<Transform>();
-        particlesExtra = poolExtra.GetComponentsInChildren<Transform>();
-        particlesPosion = poolPosion.GetComponentsInChildren<Transform>();
+        //particlesBase =  poolBase.GetComponentsInChildren<Transform>();
+        //particlesExtra = poolExtra.GetComponentsInChildren<Transform>();
+        //particlesPosion = poolPosion.GetComponentsInChildren<Transform>();
     }
 
     public void OnEnable()
     {
+        StartCoroutine(ResetPuzzle());
+    }
+
+    IEnumerator ResetPuzzle()
+    {
+        yield return null;
         ButtonReset();
     }
 
@@ -47,7 +53,7 @@ public class PuzzleManager : MonoBehaviour
         }
     }
 
-    private bool servedBase, servedExtra, servedPossion = false;
+    public bool servedBase, servedExtra, servedPossion = false;
     public void ButtonSpawn()
     {
         switch (BlackBoardPuzzle1.Instance.actualMenu)
