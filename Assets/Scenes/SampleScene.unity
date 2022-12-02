@@ -966,8 +966,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1793924278}
   m_HandleRect: {fileID: 1793924277}
   m_Direction: 2
-  m_Value: 0.5
-  m_Size: 0.75119275
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1897,7 +1897,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -170.56073
     y: -349.69342
-    width: 76
+    width: 74.373375
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1952,7 +1952,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -116.72806
     y: -229.21283
-    width: 184.66667
+    width: 177.40628
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2032,7 +2032,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -388.07062
     y: -251.82089
-    width: 212.66667
+    width: 202.88753
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2387,7 +2387,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -178.12468
     y: 6.12995
-    width: 136.66666
+    width: 131.98317
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2524,7 +2524,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -274.6056
     y: 89.83804
-    width: 131.33334
+    width: 127.55164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2690,7 +2690,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 17.179684
     y: 39.852936
-    width: 106
+    width: 103.17827
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4216,10 +4216,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 0}
-  drinkName: 
-  drinkDescription: 
+  drinkName: Jagger
+  drinkDescription: "Creaci\xF3n alemana que no deber\xEDa faltar en ningun bar.
+    Dato curioso fue utilizado por los barrios obreros como protesta para incendiar
+    fabricas y instalaciones corpo, pero finalmente el movimiento fue reducido."
   liquidMat: {fileID: 0}
   isBase: 1
+  isPossion: 0
+  drinkBase: 1
   extra: 0
 --- !u!114 &306769804
 MonoBehaviour:
@@ -4726,9 +4730,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 0}
   drinkName: Tequila
-  drinkDescription: Bueno bonito barato
+  drinkDescription: "Una recraci\xF3n del tequila la clasica bebida inventada en
+    1538, con todo su sabor indistingible pero m\xE1s fuerte y adictiva. Ademas con
+    la aprovaci\xF3n corpo"
   liquidMat: {fileID: 2100000, guid: fea9f6309110e9649a48761c5ce7bc57, type: 2}
   isBase: 1
+  isPossion: 0
+  drinkBase: 0
   extra: 0
 --- !u!114 &349070865
 MonoBehaviour:
@@ -6329,6 +6337,7 @@ GameObject:
   - component: {fileID: 540106451}
   - component: {fileID: 540106453}
   - component: {fileID: 540106452}
+  - component: {fileID: 540106454}
   m_Layer: 5
   m_Name: Bebida 1
   m_TagString: Untagged
@@ -6394,6 +6403,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 540106450}
   m_CullTransparentMesh: 1
+--- !u!114 &540106454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540106450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e793ba3465dc534785e9b63cc64c4c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 0}
+  drinkName: Veneno
+  drinkDescription: "AER (Aditivo de Efecto Retardado). Este aditivo se hizo muy
+    famoso en su d\xEDa, exist\xEDan AER de muchos tipos, cada uno con un efecto
+    secundario diferente, pero se prhibio debido a que depende de como se mezclaba
+    se convert\xEDa en un veneno indetectable que causo muchisimas muertes."
+  liquidMat: {fileID: 2100000, guid: fea9f6309110e9649a48761c5ce7bc57, type: 2}
+  isBase: 0
+  isPossion: 1
+  drinkBase: 0
+  extra: 0
 --- !u!4 &547887022 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1497695929873178185, guid: bec194a9ee213cd46a1634cf5b672a64, type: 3}
@@ -9570,6 +9602,7 @@ GameObject:
   - component: {fileID: 1092532970}
   - component: {fileID: 1092532972}
   - component: {fileID: 1092532971}
+  - component: {fileID: 1092532973}
   m_Layer: 5
   m_Name: Bebida 2
   m_TagString: Untagged
@@ -9635,6 +9668,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1092532969}
   m_CullTransparentMesh: 1
+--- !u!114 &1092532973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092532969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e793ba3465dc534785e9b63cc64c4c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 0}
+  drinkName: Menta
+  drinkDescription: "Planta perteneciente al grupo Lamiaceae, es f\xE1cil de cultivar
+    y es tipico que en los bares se cultive para ahorrar costes."
+  liquidMat: {fileID: 2100000, guid: fea9f6309110e9649a48761c5ce7bc57, type: 2}
+  isBase: 1
+  isPossion: 0
+  drinkBase: 0
+  extra: 0
 --- !u!1 &1092944795
 GameObject:
   m_ObjectHideFlags: 0
@@ -11756,6 +11810,7 @@ GameObject:
   - component: {fileID: 1460563864}
   - component: {fileID: 1460563866}
   - component: {fileID: 1460563865}
+  - component: {fileID: 1460563867}
   m_Layer: 5
   m_Name: Bebida 3
   m_TagString: Untagged
@@ -11821,6 +11876,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1460563863}
   m_CullTransparentMesh: 1
+--- !u!114 &1460563867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460563863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e793ba3465dc534785e9b63cc64c4c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 0}
+  drinkName: "Pi\xF1a"
+  drinkDescription: "Ananas comosus, su sabor te trasportara a las playas paradis\xF3acas
+    de new beach"
+  liquidMat: {fileID: 2100000, guid: fea9f6309110e9649a48761c5ce7bc57, type: 2}
+  isBase: 1
+  isPossion: 0
+  drinkBase: 0
+  extra: 3
 --- !u!1 &1468637304
 GameObject:
   m_ObjectHideFlags: 0
@@ -12754,6 +12830,7 @@ MonoBehaviour:
   quadPosion: {fileID: 1817958478}
   selectedBase: 0
   selectedExtra: 0
+  possionNoSelected: 1
   possion: 0
   actualMenu: 0
   DrinkSize: 1
@@ -13545,7 +13622,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -14.593292, y: 0}
-  m_SizeDelta: {x: 629.0381, y: 740}
+  m_SizeDelta: {x: 629.0381, y: 260}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1780546998
 MonoBehaviour:
@@ -13623,8 +13700,8 @@ RectTransform:
   m_Father: {fileID: 1322954004}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.124403626}
-  m_AnchorMax: {x: 1, y: 0.8755964}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -13914,6 +13991,7 @@ GameObject:
   - component: {fileID: 1843432253}
   - component: {fileID: 1843432255}
   - component: {fileID: 1843432254}
+  - component: {fileID: 1843432256}
   m_Layer: 5
   m_Name: Bebida 1
   m_TagString: Untagged
@@ -13979,6 +14057,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1843432252}
   m_CullTransparentMesh: 1
+--- !u!114 &1843432256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843432252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e793ba3465dc534785e9b63cc64c4c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 0}
+  drinkName: Limon
+  drinkDescription: "Recreaci\xF3n sintentica del clasico citrico. Este es uno de
+    los alimentos que se pudieron recuperar gracias a el banco mundial de semillas
+    de Svalbard fundado en 2008"
+  liquidMat: {fileID: 2100000, guid: fea9f6309110e9649a48761c5ce7bc57, type: 2}
+  isBase: 1
+  isPossion: 0
+  drinkBase: 0
+  extra: 1
 --- !u!1 &1848139368
 GameObject:
   m_ObjectHideFlags: 0
@@ -15172,9 +15272,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 0}
   drinkName: Manzana
-  drinkDescription: Manzana sabor melocoton
+  drinkDescription: "Para los m\xE1s frutales, gracias a los avances sinteticos,
+    se pudo recuperar las manzanas extintas en el 2058, aunque algunos expertos dicen
+    que ahora tienen un toque m\xE1s acido del que ser\xEDa el original"
   liquidMat: {fileID: 2100000, guid: d7dbb6442eb62904fbbc46442f2c798f, type: 2}
   isBase: 1
+  isPossion: 0
+  drinkBase: 2
   extra: 0
 --- !u!114 &2069716654
 MonoBehaviour:

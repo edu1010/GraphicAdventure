@@ -26,8 +26,9 @@ public class BlackBoardPuzzle1 : MonoBehaviour
     public TextMeshProUGUI drinksDescriptionText;
     public TextMeshProUGUI drinksNameText;
     public GameObject quadBase, quadExtra, quadPosion;
-    public DrinkBase selectedBase;
-    public DrinkExtra selectedExtra;
+    public DrinkBase selectedBase = DrinkBase.noSelected;
+    public DrinkExtra selectedExtra= DrinkExtra.noSelected;
+    public bool possionNoSelected = true;
     public bool possion =false;
     public ActualMenu actualMenu = ActualMenu.Base;
     public int DrinkSize = 1;
@@ -51,7 +52,8 @@ public class BlackBoardPuzzle1 : MonoBehaviour
     {
         Tequila,
         Jagger,
-        LicorDeManzana
+        LicorDeManzana,
+        noSelected
     }  
     public enum DrinkExtra
     {
@@ -59,7 +61,8 @@ public class BlackBoardPuzzle1 : MonoBehaviour
         Limon,
         FrutosDelBosque,
         Piña,
-        Nada
+        Nada,
+        noSelected
     }
     public enum ActualMenu
     {

@@ -60,7 +60,7 @@ public class PuzzleManager : MonoBehaviour
         {
             case (BlackBoardPuzzle1.ActualMenu.Base):
 
-                if (!servedBase)
+                if (!servedBase && BlackBoardPuzzle1.Instance.selectedBase!=BlackBoardPuzzle1.DrinkBase.noSelected)
                 {
                     Spawn(particlesBase);
                     BlackBoardPuzzle1.Instance.DesactiveBase();
@@ -69,7 +69,7 @@ public class PuzzleManager : MonoBehaviour
                 break;
             case (BlackBoardPuzzle1.ActualMenu.Extra):
 
-                if (!servedExtra)
+                if (!servedExtra && BlackBoardPuzzle1.Instance.selectedExtra!=BlackBoardPuzzle1.DrinkExtra.noSelected)
                 {
                     Spawn(particlesExtra);
                     
@@ -78,7 +78,7 @@ public class PuzzleManager : MonoBehaviour
                 }
                 break;
             case (BlackBoardPuzzle1.ActualMenu.Posion):
-                if (!servedPossion)
+                if (!servedPossion && !BlackBoardPuzzle1.Instance.possionNoSelected)
                 {
                     Spawn(particlesPosion);
                     
@@ -98,7 +98,10 @@ public class PuzzleManager : MonoBehaviour
         servedBase   = false;
         servedExtra  = false;
         servedPossion= false;
-        
+        BlackBoardPuzzle1.Instance.selectedBase = BlackBoardPuzzle1.DrinkBase.noSelected;
+        BlackBoardPuzzle1.Instance.selectedExtra =BlackBoardPuzzle1.DrinkExtra.noSelected;
+        BlackBoardPuzzle1.Instance.possion =false;
+        BlackBoardPuzzle1.Instance.possionNoSelected = true; 
         foreach (var go in particlesBase)
         {
             go.gameObject.SetActive(false);
