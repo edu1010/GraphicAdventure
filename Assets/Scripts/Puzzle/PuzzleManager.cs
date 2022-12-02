@@ -90,7 +90,7 @@ public class PuzzleManager : MonoBehaviour
        
     }
 
-    public void ButtonReset()
+    public void ButtonReset()   
     {
         BlackBoardPuzzle1.Instance.ActiveBase();
         BlackBoardPuzzle1.Instance.ActiveExtra();

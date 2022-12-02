@@ -37,6 +37,9 @@ public class BlackBoardPuzzle1 : MonoBehaviour
     [FormerlySerializedAs("baseButtons")] public GameObject baseDrinks;
     [FormerlySerializedAs("extraButtons")] public GameObject extraDrinks;
     [FormerlySerializedAs("possionButtons")] public GameObject possionDrinks;
+    public GameObject baseDrinksParent;
+    public GameObject extraDrinksParent;
+    public GameObject posionDrinksParent;
     private Button[] _desativeBaseButtons,_desactiveExtraDrinks,_desactivePossionDrinks;
     public TextMeshProUGUI sizeDrinks;
     #endregion
@@ -92,16 +95,28 @@ public class BlackBoardPuzzle1 : MonoBehaviour
         switch (actualMenu)
         {
             case (ActualMenu.Base):
+                baseDrinksParent.SetActive(true);
+                extraDrinksParent.SetActive(false);
+                posionDrinksParent.SetActive(false);
+                
                 baseDrinks.SetActive(true);
                 extraDrinks.SetActive(false);
                 possionDrinks.SetActive(false);
                 break;
             case (ActualMenu.Extra):
+                baseDrinksParent.SetActive(false);
+                extraDrinksParent.SetActive(true);
+                posionDrinksParent.SetActive(false);
+                
                 baseDrinks.SetActive(false);
                 extraDrinks.SetActive(true);
                 possionDrinks.SetActive(false);
                 break;
             case (ActualMenu.Posion):
+                baseDrinksParent.SetActive(false);
+                extraDrinksParent.SetActive(false);
+                posionDrinksParent.SetActive(true);
+                
                 baseDrinks.SetActive(false);
                 extraDrinks.SetActive(false);
                 possionDrinks.SetActive(true);

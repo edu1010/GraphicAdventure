@@ -24,7 +24,7 @@ public class LiquidSelected : MonoBehaviour
     private void Start()
     {
         button = GetComponent<Button>();
-        button.onClick.AddListener(ChangeSelected);
+            button.onClick.AddListener(ChangeSelected);
     }
 
     public void ChangeSelected()
