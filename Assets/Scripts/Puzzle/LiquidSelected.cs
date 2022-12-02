@@ -16,6 +16,9 @@ public class LiquidSelected : MonoBehaviour
     [SerializeField] private Material liquidMat;
     [SerializeField,Tooltip("Change the material of the base or of the extra")]
     private bool isBase=true;
+
+    public BlackBoardPuzzle1.DrinkBase drinkBase;
+    public BlackBoardPuzzle1.DrinkExtra extra;
     private void Start()
     {
         button = GetComponent<Button>();
@@ -28,10 +31,12 @@ public class LiquidSelected : MonoBehaviour
         BlackBoardPuzzle1.Instance.drinksDescriptionText.text = drinkDescription;
         if (isBase)
         {
+            BlackBoardPuzzle1.Instance.selectedBase = drinkBase;
             BlackBoardPuzzle1.Instance.quadBase.GetComponent<Renderer>().material = liquidMat;
         }
         else
         {
+            BlackBoardPuzzle1.Instance.selectedExtra = extra;
             BlackBoardPuzzle1.Instance.quadExtra.GetComponent<Renderer>().material = liquidMat;
         }
     }

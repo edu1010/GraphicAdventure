@@ -4220,6 +4220,7 @@ MonoBehaviour:
   drinkDescription: 
   liquidMat: {fileID: 0}
   isBase: 1
+  extra: 0
 --- !u!114 &306769804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4728,6 +4729,7 @@ MonoBehaviour:
   drinkDescription: Bueno bonito barato
   liquidMat: {fileID: 2100000, guid: fea9f6309110e9649a48761c5ce7bc57, type: 2}
   isBase: 1
+  extra: 0
 --- !u!114 &349070865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15173,6 +15175,7 @@ MonoBehaviour:
   drinkDescription: Manzana sabor melocoton
   liquidMat: {fileID: 2100000, guid: d7dbb6442eb62904fbbc46442f2c798f, type: 2}
   isBase: 1
+  extra: 0
 --- !u!114 &2069716654
 MonoBehaviour:
   m_ObjectHideFlags: 0

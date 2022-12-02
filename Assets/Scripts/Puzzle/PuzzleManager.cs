@@ -98,6 +98,7 @@ public class PuzzleManager : MonoBehaviour
         servedBase   = false;
         servedExtra  = false;
         servedPossion= false;
+        
         foreach (var go in particlesBase)
         {
             go.gameObject.SetActive(false);

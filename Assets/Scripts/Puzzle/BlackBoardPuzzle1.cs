@@ -49,12 +49,17 @@ public class BlackBoardPuzzle1 : MonoBehaviour
 
     public enum DrinkBase
     {
-        Tequila
+        Tequila,
+        Jagger,
+        LicorDeManzana
     }  
     public enum DrinkExtra
     {
-        Extra1,
-        Extra2
+        Menta,
+        Limon,
+        FrutosDelBosque,
+        Piña,
+        Nada
     }
     public enum ActualMenu
     {
