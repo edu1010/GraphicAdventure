@@ -1898,7 +1898,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -170.56073
     y: -349.69342
-    width: 74.82269
+    width: 75.28734
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1954,7 +1954,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -116.72806
     y: -229.21283
-    width: 178.36879
+    width: 181.0344
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2034,7 +2034,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -387.0069
     y: -258.20416
-    width: 203.9007
+    width: 206.32173
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2127,6 +2127,8 @@ MonoBehaviour:
   - {fileID: 216937154}
   - {fileID: 216937164}
   - {fileID: 216937153}
+  - {fileID: 216937206}
+  - {fileID: 216937205}
   - {fileID: 216937163}
   suppressAllAutoSelections: 0
 --- !u!114 &216937153
@@ -2362,7 +2364,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -178.12468
     y: 6.12995
-    width: 133.68793
+    width: 135.0574
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2499,7 +2501,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -274.6056
     y: 89.83804
-    width: 129.43262
+    width: 129.31029
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2665,7 +2667,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 16.179684
     y: 87.852936
-    width: 103.19148
+    width: 106.3218
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3007,6 +3009,66 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &216937205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216937128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 57
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 164638681}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &216937206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216937128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 56
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 1054035063}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!4 &262015936 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1497695928488971409, guid: bec194a9ee213cd46a1634cf5b672a64, type: 3}
