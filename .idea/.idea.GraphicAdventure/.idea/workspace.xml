@@ -31,6 +31,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/Feliz cum david xD\Adventure game.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\edu10\Desktop\Feliz cum david xD" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.2f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\edu10\Documents\GitHub\GraphicAdventure -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -72,6 +80,8 @@
       <workItem from="1669649760352" duration="5625000" />
       <workItem from="1669935330498" duration="7520000" />
       <workItem from="1669994240962" duration="1685000" />
+      <workItem from="1670441333417" duration="761000" />
+      <workItem from="1670443509136" duration="1242000" />
     </task>
     <servers />
   </component>
