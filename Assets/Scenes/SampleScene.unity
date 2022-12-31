@@ -1949,7 +1949,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -170.56073
     y: -349.69342
-    width: 74.48978
+    width: 76
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2005,7 +2005,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -116.72806
     y: -229.21283
-    width: 173.80942
+    width: 184.66667
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2085,7 +2085,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -387.0069
     y: -258.20416
-    width: 198.2992
+    width: 212.66667
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2415,7 +2415,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -178.12468
     y: 6.12995
-    width: 131.63258
+    width: 136.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2552,7 +2552,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -249.23242
     y: 62.972374
-    width: 127.55096
+    width: 131.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2719,7 +2719,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 16.179684
     y: 87.852936
-    width: 101.70064
+    width: 106
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3137,7 +3137,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -633.80225
     y: 64.642395
-    width: 184.69377
+    width: 193.33333
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3186,11 +3186,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: -620.70667
     y: 124.40421
-    width: 74.48978
+    width: 74
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 58
+  itemId: 78
   blockName: BAR
   description: 
   eventHandler: {fileID: 0}
@@ -3262,7 +3262,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -270.97302
     y: 329.88715
-    width: 173.80942
+    width: 184.66667
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3449,7 +3449,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -245.45572
     y: 248.32451
-    width: 122.10878
+    width: 130.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3522,11 +3522,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: -294.18283
     y: 155.04437
-    width: 215.98625
+    width: 226.66667
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 58
+  itemId: 79
   blockName: Apartamento de reinhard DIA 1
   description: 
   eventHandler: {fileID: 0}
@@ -4378,7 +4378,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7849573040314749159, guid: bec194a9ee213cd46a1634cf5b672a64, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bec194a9ee213cd46a1634cf5b672a64, type: 3}
@@ -6708,7 +6708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.31659108, g: 0.23487003, b: 0.3679245, a: 1}
+  m_Color: {r: 0.31659108, g: 0.23487003, b: 0.3679245, a: 0.5176471}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8403,7 +8403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.31659108, g: 0.23487003, b: 0.3679245, a: 1}
+  m_Color: {r: 0.31659108, g: 0.23487003, b: 0.3679245, a: 0.5647059}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
