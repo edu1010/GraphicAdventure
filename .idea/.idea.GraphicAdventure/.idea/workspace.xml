@@ -11,6 +11,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlowChartManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle/BlackBoardPuzzle1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle/PuzzleManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -82,6 +83,7 @@
       <workItem from="1669994240962" duration="1685000" />
       <workItem from="1670441333417" duration="761000" />
       <workItem from="1670443509136" duration="1242000" />
+      <workItem from="1672515072794" duration="309000" />
     </task>
     <servers />
   </component>
