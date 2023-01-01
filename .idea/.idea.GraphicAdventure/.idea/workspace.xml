@@ -8,6 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/BlackboardFlowChart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlowChartManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle/BlackBoardPuzzle1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle/PuzzleManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -86,7 +87,7 @@
       <workItem from="1672515072794" duration="309000" />
       <workItem from="1672515402952" duration="406000" />
       <workItem from="1672515833130" duration="594000" />
-      <workItem from="1672588637938" duration="3533000" />
+      <workItem from="1672588637938" duration="4828000" />
     </task>
     <servers />
   </component>

@@ -35,6 +35,10 @@ public class FlowChartManager : MonoBehaviour
         PuzzleManager.Instance.solution = ou;
     }
 
+    public void SetFlowChart(Flowchart flowchart)
+    {
+        fl = flowchart;
+    }
     public void ResultPuzzle(bool correctDrink,bool possion,string nextNode)
     {
         if (correctDrink)
@@ -58,4 +62,8 @@ public class FlowChartManager : MonoBehaviour
 
     }
     
+    public  void PuzzleVeneno (String nextNode)
+    {
+        
+    }
 }
