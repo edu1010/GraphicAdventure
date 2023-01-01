@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Fungus;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -73,5 +74,11 @@ public class FlowChartManager : MonoBehaviour
     public  void CallBlock (String nextNode)
     {
         fl.ExecuteBlock(nextNode);
+    }
+
+    public void SetDescription(Fungus.Character character,String descripcion)
+    {
+        character.description = descripcion;
+        Debug.Log(character.description);
     }
 }

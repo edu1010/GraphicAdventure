@@ -34,7 +34,7 @@ namespace Fungus
 
         [FormerlySerializedAs("notes")]
         [TextArea(5,10)]
-        [SerializeField] protected string description;
+        [SerializeField] public string description;
 
         protected PortraitState portaitState = new PortraitState();
 
