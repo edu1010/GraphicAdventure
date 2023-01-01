@@ -35,6 +35,14 @@ public class FlowChartManager : MonoBehaviour
         PuzzleManager.Instance.solution = ou;
     }
 
+    [SerializeField] private GameObject _puzleVenenoGameObject;
+    [SerializeField] private PuzzleVeneno _puzleVeneno;
+    public void ActivatePuzzleVeneno(String code,string nextNode)
+    {
+        _puzleVenenoGameObject.SetActive(true);
+        _puzleVeneno.ActivatePuzzle(code,nextNode);
+    }
+
     public void SetFlowChart(Flowchart flowchart)
     {
         fl = flowchart;
@@ -62,8 +70,8 @@ public class FlowChartManager : MonoBehaviour
 
     }
     
-    public  void PuzzleVeneno (String nextNode)
+    public  void CallBlock (String nextNode)
     {
-        
+        fl.ExecuteBlock(nextNode);
     }
 }
