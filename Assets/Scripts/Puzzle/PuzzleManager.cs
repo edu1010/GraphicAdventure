@@ -129,7 +129,7 @@ public class PuzzleManager : MonoBehaviour
     public void ButtonDecrementDrink()
     {
         BlackBoardPuzzle1.Instance.DrinkSize -= 1;
-        if (BlackBoardPuzzle1.Instance.DrinkSize > 1)
+        if (BlackBoardPuzzle1.Instance.DrinkSize < 1)
         {
             BlackBoardPuzzle1.Instance.DrinkSize = 1;
         }
