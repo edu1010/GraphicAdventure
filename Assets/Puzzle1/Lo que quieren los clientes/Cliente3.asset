@@ -16,5 +16,5 @@ MonoBehaviour:
   drinkExtra: 2
   image: {fileID: 0}
   cantidad: 1
-  resultadoPositivo: 
-  resultadoNegativo: 
+  resultadoPositivo: 2.Depoortere correctPuzzle
+  resultadoNegativo: 2.Depoortere failPuzzle
