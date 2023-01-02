@@ -11,7 +11,9 @@ public class LiquidSelected : MonoBehaviour
     [SerializeField]
     Sprite image;
     [SerializeField]
-    private string drinkName, drinkDescription; 
+    private string drinkName;
+    [SerializeField,TextArea(5,10)]
+    private string  drinkDescription; 
     Button button;
     [SerializeField] private Material liquidMat;
     [SerializeField,Tooltip("Change the material of the base or of the extra")]
