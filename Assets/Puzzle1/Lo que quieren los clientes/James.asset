@@ -16,5 +16,5 @@ MonoBehaviour:
   drinkExtra: 0
   image: {fileID: 0}
   cantidad: 1
-  resultadoPositivo: 
-  resultadoNegativo: 
+  resultadoPositivo: 2.James correctPuzzle Veneno
+  resultadoNegativo: 7.James failPuzzle
