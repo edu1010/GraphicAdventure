@@ -76,9 +76,14 @@ public class FlowChartManager : MonoBehaviour
         fl.ExecuteBlock(nextNode);
     }
 
+    [SerializeField] private GameObject fichaPrefab;
+    [SerializeField] private GameObject parent;
     public void SetDescription(Fungus.Character character,String descripcion)
     {
+        GameObject go = Instantiate(fichaPrefab,parent.transform);
+        go.GetComponent<Ficha>().setParameters(character.name,descripcion,character.Portraits[0]);
         character.description = descripcion;
         Debug.Log(character.description);
+        
     }
 }
