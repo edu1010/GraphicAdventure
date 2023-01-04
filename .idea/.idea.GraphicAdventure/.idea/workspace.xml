@@ -18,6 +18,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle/BlackBoardPuzzle1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle/PuzzleManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/desactiveInTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/puzzleCombat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/puzzleHackPC.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Descriptors/DescriptorProvider.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -98,7 +100,7 @@
       <workItem from="1672619878000" duration="1392000" />
       <workItem from="1672702173483" duration="2257000" />
       <workItem from="1672765474320" duration="4201000" />
-      <workItem from="1672846251422" duration="2365000" />
+      <workItem from="1672846251422" duration="7574000" />
     </task>
     <servers />
   </component>
