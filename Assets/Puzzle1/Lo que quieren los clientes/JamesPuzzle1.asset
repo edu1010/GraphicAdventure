@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4041ffd277f9b3e4991363b9b171bacb, type: 3}
-  m_Name: Cliente5
+  m_Name: JamesPuzzle1
   m_EditorClassIdentifier: 
-  drinkBase: 1
-  drinkExtra: 2
+  drinkBase: 2
+  drinkExtra: 0
   image: {fileID: 0}
   cantidad: 1
-  resultadoPositivo: 7.Javier Prades correctPuzzle Veneno
-  resultadoNegativo: 7.Javier Prades failPuzzle
+  resultadoPositivo: 2.James correctPuzzle Veneno
+  resultadoNegativo: 7.James failPuzzle

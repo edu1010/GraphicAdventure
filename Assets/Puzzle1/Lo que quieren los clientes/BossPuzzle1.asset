@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4041ffd277f9b3e4991363b9b171bacb, type: 3}
-  m_Name: LOUIS
+  m_Name: BossPuzzle1
   m_EditorClassIdentifier: 
-  drinkBase: 1
-  drinkExtra: 1
+  drinkBase: 2
+  drinkExtra: 2
   image: {fileID: 0}
   cantidad: 1
-  resultadoPositivo: 
-  resultadoNegativo: 
+  resultadoPositivo: 10.Boss correctPuzzleVeneno
+  resultadoNegativo: 10.Boss failPuzzle1
