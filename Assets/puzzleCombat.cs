@@ -63,6 +63,7 @@ public class puzzleCombat : MonoBehaviour
     public void BucleConversationStart()
     {
         _decisionEnemy = Random.Range(0, 3);
+        Debug.Log("decision enemy "+_decisionEnemy);
         switch (_decisionEnemy)
         {
             case 0:
@@ -194,6 +195,8 @@ public class puzzleCombat : MonoBehaviour
 
                 if (enemyAttack == AttackType.Patada)
                 {
+                    //hpenemy -= 10;
+                    //hplayer -= 10;
                     //nada
                 }
                 break;
