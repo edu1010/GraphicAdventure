@@ -94,8 +94,12 @@ public class puzzleCombat : MonoBehaviour
         
         //flowchartCombat.GetVariable<StringVariable>("Conversation").Value = $"Reinhard Mittermeyer reinhard_test: Holi";
         flowchartCombat.GetVariable<StringVariable>("Conversation").Value = txt;
-        flowchartCombat.ExecuteBlock("EnemyText");
-        SetAnswers();
+        if (flowchartCombat.SelectedBlock.name != "EnemyText")
+        {
+            flowchartCombat.ExecuteBlock("EnemyText");
+            SetAnswers();
+        }
+            
     }
 
     public void SetAnswers()
