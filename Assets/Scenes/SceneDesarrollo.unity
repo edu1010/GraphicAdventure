@@ -1009,16 +1009,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyName: {fileID: 420216895}
-  sliderPlayer: {fileID: 0}
-  sliderEnemy: {fileID: 0}
+  sliderPlayer: {fileID: 1326335600}
+  sliderEnemy: {fileID: 172396129}
+  sliderTimer: {fileID: 1990084444}
+  MaxTime: 5
   flowchartCombat: {fileID: 1698759886}
-  frasesGuardia: []
-  frasesGolpe: []
-  frasesPatada: []
-  butonGuardia: {fileID: 0}
-  butonGolpe: {fileID: 0}
-  butonPatada: {fileID: 0}
+  frasesGuardia:
+  - "Crees que ser\xE1s capaz de hacerme algo."
+  - "Te esquivar\xE9 con los ojos vendados."
+  frasesGolpe:
+  - "\xA1Recibe esto!"
+  frasesPatada:
+  - Patada
+  frasesGuardiaEnemy:
+  - "\xA1Ese golpe no me har\xE1 nada!"
+  frasesGolpeEnemy:
+  - "\xA1Levanta esos pu\xF1os, aqu\xED vengo, no me contendr\xE9!"
+  - golpe
+  frasesPatadaEnemy:
+  - Mi pie en tu cara, en 3,2 1
+  butonGuardia: {fileID: 36475724}
+  butonGolpe: {fileID: 857312748}
+  butonPatada: {fileID: 1867718524}
   enemyAttack: 0
+  ch1: {fileID: 1054035063}
 --- !u!1 &36302658
 GameObject:
   m_ObjectHideFlags: 0
@@ -1250,7 +1264,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &40253959
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3066,7 +3080,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 132635107}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 34098378}
+        m_TargetAssemblyTypeName: puzzleCombat, Assembly-CSharp
+        m_MethodName: PlayerAnswer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &132635107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28304,7 +28330,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1080599768}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 34098378}
+        m_TargetAssemblyTypeName: puzzleCombat, Assembly-CSharp
+        m_MethodName: PlayerAnswer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1080599768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33655,7 +33693,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &1446300726
 AudioSource:
   m_ObjectHideFlags: 0
@@ -48794,7 +48832,6 @@ GameObject:
   - component: {fileID: 1698759891}
   - component: {fileID: 1698759893}
   - component: {fileID: 1698759892}
-  - component: {fileID: 1698759894}
   - component: {fileID: 1698759897}
   - component: {fileID: 1698759896}
   - component: {fileID: 1698759895}
@@ -48861,11 +48898,10 @@ MonoBehaviour:
   commandList:
   - {fileID: 1698759891}
   - {fileID: 1698759884}
-  - {fileID: 1698759894}
   - {fileID: 1698759896}
+  - {fileID: 1698759892}
   - {fileID: 1698759897}
   - {fileID: 1698759895}
-  - {fileID: 1698759892}
   suppressAllAutoSelections: 0
 --- !u!114 &1698759886
 MonoBehaviour:
@@ -48893,7 +48929,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1698759885}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1698759892}
   variables:
   - {fileID: 1698759888}
   description: 
@@ -49013,36 +49050,6 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList: []
   suppressAllAutoSelections: 0
---- !u!114 &1698759894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1698759882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 6
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 164638681}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
 --- !u!114 &1698759895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52857,7 +52864,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1970530901}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 34098378}
+        m_TargetAssemblyTypeName: puzzleCombat, Assembly-CSharp
+        m_MethodName: PlayerAnswer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1970530901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53908,7 +53927,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 70, y: -246}
+  m_AnchoredPosition: {x: -37, y: 26}
   m_SizeDelta: {x: 1300, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2028888598
