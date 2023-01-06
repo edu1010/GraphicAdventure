@@ -1,6 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using Microsoft.Unity.VisualStudio.Editor;
+
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Drinks", menuName = "ScriptableObjects/newDrink", order = 1)]
