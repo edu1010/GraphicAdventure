@@ -8,26 +8,38 @@ public class puzzleHackPC : MonoBehaviour
 {
     private String _solutionCode;
     private String _nextNode;
+    private int numberoftries = 0;
     public void ActivatePuzzle(String code,string nextNode)
     {
         _solutionCode = code;
         _nextNode = nextNode;
     }
+
+    [SerializeField] private GameObject MaxNumberOfErrors;
+    [SerializeField] private GameObject fichas;
     public void CheckCode(TMP_InputField input)
     {
          
-        if (string.Equals(input.text, _solutionCode, StringComparison.OrdinalIgnoreCase))
+        if (string.Equals(input.text, _solutionCode, StringComparison.OrdinalIgnoreCase) &&numberoftries <= 3)
         {
-            FlowChartManager.Instance.CallBlock(_nextNode);
             input.text = "";
-            DesactivatePuzle();
-
-
+            fichas.SetActive(true);
         }
         else
         {
-            
+            numberoftries += 1;
+            if (numberoftries > 3)
+            {
+                MaxNumberOfErrors.SetActive(true);
+            }
         }
+    }
+
+    public void FinishPuzzle()
+    {
+        FlowChartManager.Instance.CallBlock(_nextNode);
+       
+        DesactivatePuzle();
     }
     public void DesactivatePuzle()
     {
