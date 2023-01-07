@@ -24,14 +24,24 @@ public class puzzleCombat : MonoBehaviour
     private float _elapsedTime=0;
     public Flowchart flowchartCombat;
     private StringVariable conversation;
-
+    private bool _james;
     public List<String> frasesGuardia = new List<string>();
     public List<String> frasesGolpe = new List<string>();
     public List<String> frasesPatada = new List<string>(); 
     
-    public List<String> frasesGuardiaEnemy = new List<string>();
-    public List<String> frasesGolpeEnemy   = new List<string>();
-    public List<String> frasesPatadaEnemy  = new List<string>();
+    private List<String> frasesGuardiaEnemy = new List<string>();
+    private List<String> frasesGolpeEnemy   = new List<string>();
+    private List<String> frasesPatadaEnemy  = new List<string>();
+    
+    public List<String> frasesGuardiaJames = new List<string>();
+    public List<String> frasesGolpeJames   = new List<string>();
+    public List<String> frasesPatadaJames  = new List<string>();
+    
+    public List<String> frasesGuardiaRyusuke  = new List<string>();
+    public List<String> frasesGolpeRyusuke = new List<string>();
+    public List<String> frasesPatadaRyusuke   = new List<string>();
+    
+    
     public Text butonGuardia;
     public Text butonGolpe;
     public Text butonPatada;
@@ -42,18 +52,31 @@ public class puzzleCombat : MonoBehaviour
   
     private int _decisionEnemy = 0;
     private string _fraseEnemigo;
-    public void ActivatePuzzle(Character enemy,string nextNodeWinBattle,string nextNodeLoseBattle)
+    public void ActivatePuzzle(Character enemy,string nextNodeWinBattle,string nextNodeLoseBattle,bool James)
     {
         gameObject.SetActive(true);
         _enemy = enemy;
         _nextNodeWin = nextNodeWinBattle;
         _nextNodeLose = nextNodeLoseBattle;
-        hplayer = 100;
-        hpenemy = 100;
+        hplayer = 102;
+        hpenemy = 102;
         enemyName.text = enemy.NameText;
-        sliderPlayer.maxValue = 100;
-        sliderEnemy.maxValue = 100;
+        sliderPlayer.maxValue = 102;
+        sliderEnemy.maxValue = 102;
         sliderTimer.maxValue = MaxTime;
+        _james = James;
+        if (James)
+        { 
+            frasesGuardiaEnemy  = frasesGuardiaJames; 
+            frasesGolpeEnemy = frasesGolpeJames  ;
+            frasesPatadaEnemy   = frasesPatadaJames ;
+        }
+        else
+        {
+            frasesGuardiaEnemy  = frasesGuardiaRyusuke; 
+            frasesGolpeEnemy = frasesGolpeRyusuke  ;
+            frasesPatadaEnemy   = frasesPatadaRyusuke ;
+        }
         SetHealhBar();
         BucleConversationStart();
     }
@@ -112,6 +135,12 @@ public class puzzleCombat : MonoBehaviour
 
     }
 
+    public void ChangeMaxTimeFromFlowchart(float t)
+    {
+        sliderTimer.maxValue = t;
+        MaxTime = t;
+        sliderTimer.value = MaxTime;
+    }
     private bool restTime = false;
     public void Update()
     {
@@ -121,6 +150,7 @@ public class puzzleCombat : MonoBehaviour
             sliderTimer.value -= Time.deltaTime;
             if (_elapsedTime > MaxTime)
             {
+                PlayerAnswer(Random.Range(0, 3));
                 _elapsedTime = 0;
                 restTime = false;
             }
@@ -157,42 +187,41 @@ public class puzzleCombat : MonoBehaviour
 
                 if (enemyAttack == AttackType.Golpe)
                 {
-                    hpenemy -= 20;
+                    hpenemy -= 34;
                 }
 
                 if (enemyAttack == AttackType.Patada)
                 {
-                    hplayer -= 20;
+                    hplayer -= 34;
                 }
                 break;
             case AttackType.Golpe:
 
                 if (enemyAttack == AttackType.Guardia)
                 {
-                    hplayer -= 20;
+                    hplayer -= 34;
                 }
 
                 if (enemyAttack == AttackType.Golpe)
                 {
-                    hplayer -= 20;
-                    hpenemy -= 20;
+                    //nada
                 }
 
                 if (enemyAttack == AttackType.Patada)
                 {
-                    hpenemy -= 20;
+                    hpenemy -= 34;
                 }
                 break;
             case AttackType.Patada:
 
                 if (enemyAttack == AttackType.Guardia)
                 {
-                    hpenemy -= 20;
+                    hpenemy -= 34;
                 }
 
                 if (enemyAttack == AttackType.Golpe)
                 {
-                    hplayer -= -20;
+                    hplayer -= -34;
                 }
 
                 if (enemyAttack == AttackType.Patada)
@@ -237,7 +266,7 @@ public class puzzleCombat : MonoBehaviour
     }
     public void ResetCombat()
     {
-        ActivatePuzzle(_enemy,_nextNodeWin,_nextNodeLose);
+        ActivatePuzzle(_enemy,_nextNodeWin,_nextNodeLose,_james);
     }
     public void SetHealhBar()
     {

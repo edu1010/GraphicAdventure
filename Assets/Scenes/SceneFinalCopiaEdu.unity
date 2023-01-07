@@ -54004,6 +54004,138 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGuardia.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGolpe.Array.data[0]
+      value: Golpe
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGolpeJames.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGuardia.Array.data[0]
+      value: Guardia
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesPatadaJames.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGolpeRyusuke.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGuardiaJames.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGolpeJames.Array.data[0]
+      value: "Tengo que acercarme a \xE9l\u2026  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGolpeJames.Array.data[1]
+      value: 'Voy a darle duro  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGolpeJames.Array.data[2]
+      value: "Su pierna est\xE1 preparada para atacar  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGolpeJames.Array.data[3]
+      value: "Su ataque no vencer\xE1 al m\xEDo  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesPatadaRyusuke.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGuardiaRyusuke.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesPatadaJames.Array.data[0]
+      value: 'Tengo que romper su defensa  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesPatadaJames.Array.data[1]
+      value: 'Tengo que hacerle caer  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesPatadaJames.Array.data[2]
+      value: 'Hay que desequilibrarle  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesPatadaJames.Array.data[3]
+      value: "Su defensa es d\xE9bil  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGolpeRyusuke.Array.data[0]
+      value: "El rubito est\xE1 desprotegido, que tonto  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGolpeRyusuke.Array.data[1]
+      value: 'Voy a hacerle sangrar la cara al rubito  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGolpeRyusuke.Array.data[2]
+      value: 'Hay que pegarle fuerte  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGolpeRyusuke.Array.data[3]
+      value: 'Se viene un K.O.  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGuardiaJames.Array.data[0]
+      value: 'Tengo que vigilar el brazo derecho  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGuardiaJames.Array.data[1]
+      value: 'Viene un ataque duro  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGuardiaJames.Array.data[2]
+      value: 'Tengo que cubrir la cabeza  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGuardiaJames.Array.data[3]
+      value: "No tengo tiempo para reaccionar\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesPatadaRyusuke.Array.data[0]
+      value: 'Voy a romperle la pierna  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesPatadaRyusuke.Array.data[1]
+      value: 'Voy a destrozar su guardia  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesPatadaRyusuke.Array.data[2]
+      value: "Tengo que usar la pr\xF3tesis de la pierna  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesPatadaRyusuke.Array.data[3]
+      value: 'Que predecible, se va a defender  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGuardiaRyusuke.Array.data[0]
+      value: 'Que ataque tan simple  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGuardiaRyusuke.Array.data[1]
+      value: 'Va a lanzar un ataque  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGuardiaRyusuke.Array.data[2]
+      value: "Aguantar\xE9 una y luego ataco  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465252776, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: frasesGuardiaRyusuke.Array.data[3]
+      value: "Mierda no tengo punto de apoyo\u2026"
+      objectReference: {fileID: 0}
     - target: {fileID: 8502826460071826026, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -54051,6 +54183,34 @@ PrefabInstance:
     - target: {fileID: 8502826460071826027, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
       propertyPath: m_Name
       value: PuzzleCombat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8502826460071826027, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8502826460175289204, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8502826460175289204, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8502826461271397147, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8502826461271397147, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8502826461859877345, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8502826461859877345, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 984ac3f706631534ea16bfc51c193e74, type: 3}

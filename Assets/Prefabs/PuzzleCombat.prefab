@@ -480,7 +480,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8502826460071826026
 Transform:
   m_ObjectHideFlags: 0
@@ -519,19 +519,41 @@ MonoBehaviour:
   MaxTime: 5
   flowchartCombat: {fileID: 8502826460685171087}
   frasesGuardia:
-  - "Crees que ser\xE1s capaz de hacerme algo."
-  - "Te esquivar\xE9 con los ojos vendados."
+  - Guardia
   frasesGolpe:
-  - "\xA1Recibe esto!"
+  - Golpe
   frasesPatada:
   - Patada
-  frasesGuardiaEnemy:
-  - "\xA1Ese golpe no me har\xE1 nada!"
-  frasesGolpeEnemy:
-  - "\xA1Levanta esos pu\xF1os, aqu\xED vengo, no me contendr\xE9!"
-  - golpe
-  frasesPatadaEnemy:
-  - Mi pie en tu cara, en 3,2 1
+  frasesGuardiaJames:
+  - 'Tengo que vigilar el brazo derecho  '
+  - 'Viene un ataque duro  '
+  - 'Tengo que cubrir la cabeza  '
+  - "No tengo tiempo para reaccionar\u2026"
+  frasesGolpeJames:
+  - "Tengo que acercarme a \xE9l\u2026  "
+  - 'Voy a darle duro  '
+  - "Su pierna est\xE1 preparada para atacar  "
+  - "Su ataque no vencer\xE1 al m\xEDo  "
+  frasesPatadaJames:
+  - 'Tengo que romper su defensa  '
+  - 'Tengo que hacerle caer  '
+  - 'Hay que desequilibrarle  '
+  - "Su defensa es d\xE9bil  "
+  frasesGuardiaRyusuke:
+  - 'Que ataque tan simple  '
+  - 'Va a lanzar un ataque  '
+  - "Aguantar\xE9 una y luego ataco  "
+  - "Mierda no tengo punto de apoyo\u2026"
+  frasesGolpeRyusuke:
+  - "El rubito est\xE1 desprotegido, que tonto  "
+  - 'Voy a hacerle sangrar la cara al rubito  '
+  - 'Hay que pegarle fuerte  '
+  - 'Se viene un K.O.  '
+  frasesPatadaRyusuke:
+  - 'Voy a romperle la pierna  '
+  - 'Voy a destrozar su guardia  '
+  - "Tengo que usar la pr\xF3tesis de la pierna  "
+  - 'Que predecible, se va a defender  '
   butonGuardia: {fileID: 8502826461097618957}
   butonGolpe: {fileID: 8502826461386174637}
   butonPatada: {fileID: 8502826460786745917}
@@ -693,7 +715,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3157,7 +3179,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3452,7 +3474,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
