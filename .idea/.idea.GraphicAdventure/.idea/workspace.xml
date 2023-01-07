@@ -11,6 +11,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/BlackboardFlowChart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ficha.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FichaDescriptionText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FichasAdministrator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PuzzleVeneno.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ReorderCanvas.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragDrop/DragDrop.cs" root0="FORCE_HIGHLIGHTING" />
@@ -103,7 +104,7 @@
       <workItem from="1672765474320" duration="4201000" />
       <workItem from="1672846251422" duration="9270000" />
       <workItem from="1672942192293" duration="21563000" />
-      <workItem from="1673022814120" duration="746000" />
+      <workItem from="1673022814120" duration="6501000" />
     </task>
     <servers />
   </component>
