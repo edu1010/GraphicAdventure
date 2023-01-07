@@ -42111,5 +42111,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: PuzzleVeneno
       objectReference: {fileID: 0}
+    - target: {fileID: 9117493645354345750, guid: 120d25f9e257dc848bd05eb47679db39, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 120d25f9e257dc848bd05eb47679db39, type: 3}

@@ -7,16 +7,20 @@ using UnityEngine;
 public class puzzleHackPC : MonoBehaviour
 {
     private String _solutionCode;
-    private String _nextNode;
+    private String _nextCorrectNode;
+    private String _nextFailNode;
     private int numberoftries = 0;
-    public void ActivatePuzzle(String code,string nextNode)
+    public void ActivatePuzzle(String passwordPoliceApp,string nextNodeDeleteFicha,string nextNodeFailDelete)
     {
-        _solutionCode = code;
-        _nextNode = nextNode;
+        gameObject.SetActive(true);
+        _solutionCode = passwordPoliceApp;
+        _nextCorrectNode = nextNodeDeleteFicha;
+        _nextFailNode = nextNodeFailDelete;
     }
 
     [SerializeField] private GameObject MaxNumberOfErrors;
     [SerializeField] private GameObject fichas;
+    [SerializeField] private TextMeshProUGUI textoNumErrores;
     public void CheckCode(TMP_InputField input)
     {
          
@@ -30,20 +34,33 @@ public class puzzleHackPC : MonoBehaviour
             numberoftries += 1;
             if (numberoftries > 3)
             {
+                textoNumErrores.text = "3 de 3 intentos";
                 MaxNumberOfErrors.SetActive(true);
             }
+            else
+            {
+                textoNumErrores.gameObject.SetActive(true);
+                textoNumErrores.text = numberoftries + " de 3 intentos";
+            }
+            
         }
     }
 
+    public void FailPuzzle()
+    {
+        FlowChartManager.Instance.CallBlock(_nextFailNode);
+       
+        DesactivatePuzle();
+    }
     public void FinishPuzzle()
     {
-        FlowChartManager.Instance.CallBlock(_nextNode);
+        FlowChartManager.Instance.CallBlock(_nextCorrectNode);
        
         DesactivatePuzle();
     }
     public void DesactivatePuzle()
     {
-        _nextNode = "";
+        _nextCorrectNode = "";
         gameObject.SetActive(false);
     }
 }

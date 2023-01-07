@@ -432,7 +432,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8502826461099929995}
+      - m_Target: {fileID: 1465252776}
         m_TargetAssemblyTypeName: puzzleCombat, Assembly-CSharp
         m_MethodName: PlayerAnswer
         m_Mode: 3
@@ -473,6 +473,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8502826460071826026}
+  - component: {fileID: 1465252776}
   m_Layer: 0
   m_Name: PuzzleCombat
   m_TagString: Untagged
@@ -487,7 +488,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8502826460071826027}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 960, y: 540, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -499,6 +500,43 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1465252776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8502826460071826027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dd47ba72793f0c4b8dc140c4b10d54a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyName: {fileID: 8502826461015801214}
+  sliderPlayer: {fileID: 8502826460243901233}
+  sliderEnemy: {fileID: 8502826461238522656}
+  sliderTimer: {fileID: 8502826460354001437}
+  MaxTime: 5
+  flowchartCombat: {fileID: 8502826460685171087}
+  frasesGuardia:
+  - "Crees que ser\xE1s capaz de hacerme algo."
+  - "Te esquivar\xE9 con los ojos vendados."
+  frasesGolpe:
+  - "\xA1Recibe esto!"
+  frasesPatada:
+  - Patada
+  frasesGuardiaEnemy:
+  - "\xA1Ese golpe no me har\xE1 nada!"
+  frasesGolpeEnemy:
+  - "\xA1Levanta esos pu\xF1os, aqu\xED vengo, no me contendr\xE9!"
+  - golpe
+  frasesPatadaEnemy:
+  - Mi pie en tu cara, en 3,2 1
+  butonGuardia: {fileID: 8502826461097618957}
+  butonGolpe: {fileID: 8502826461386174637}
+  butonPatada: {fileID: 8502826460786745917}
+  enemyAttack: 0
+  ch1: {fileID: 0}
 --- !u!1 &8502826460158115240
 GameObject:
   m_ObjectHideFlags: 0
@@ -1305,7 +1343,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8502826461099929995}
+      - m_Target: {fileID: 1465252776}
         m_TargetAssemblyTypeName: puzzleCombat, Assembly-CSharp
         m_MethodName: PlayerAnswer
         m_Mode: 3
@@ -2300,7 +2338,6 @@ GameObject:
   - component: {fileID: 8502826461099929990}
   - component: {fileID: 8502826461099929991}
   - component: {fileID: 8502826461099929988}
-  - component: {fileID: 8502826461099929995}
   m_Layer: 5
   m_Name: MenuDialogCombat
   m_TagString: Untagged
@@ -2405,43 +2442,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &8502826461099929995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8502826461099929986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2dd47ba72793f0c4b8dc140c4b10d54a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyName: {fileID: 8502826461015801214}
-  sliderPlayer: {fileID: 8502826460243901233}
-  sliderEnemy: {fileID: 8502826461238522656}
-  sliderTimer: {fileID: 8502826460354001437}
-  MaxTime: 5
-  flowchartCombat: {fileID: 8502826460685171087}
-  frasesGuardia:
-  - "Crees que ser\xE1s capaz de hacerme algo."
-  - "Te esquivar\xE9 con los ojos vendados."
-  frasesGolpe:
-  - "\xA1Recibe esto!"
-  frasesPatada:
-  - Patada
-  frasesGuardiaEnemy:
-  - "\xA1Ese golpe no me har\xE1 nada!"
-  frasesGolpeEnemy:
-  - "\xA1Levanta esos pu\xF1os, aqu\xED vengo, no me contendr\xE9!"
-  - golpe
-  frasesPatadaEnemy:
-  - Mi pie en tu cara, en 3,2 1
-  butonGuardia: {fileID: 8502826461097618957}
-  butonGolpe: {fileID: 8502826461386174637}
-  butonPatada: {fileID: 8502826460786745917}
-  enemyAttack: 0
-  ch1: {fileID: 0}
 --- !u!1 &8502826461102163783
 GameObject:
   m_ObjectHideFlags: 0
@@ -2941,7 +2941,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8502826461099929995}
+      - m_Target: {fileID: 1465252776}
         m_TargetAssemblyTypeName: puzzleCombat, Assembly-CSharp
         m_MethodName: PlayerAnswer
         m_Mode: 3

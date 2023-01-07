@@ -21,6 +21,7 @@ public class PuzzleVeneno : MonoBehaviour
 
     public void ActivatePuzzle(String code,string nextNode)
     {
+        gameObject.SetActive(true);
         _animator.SetTrigger("Init");
         _solutionCode = code;
         _nextNode = nextNode;

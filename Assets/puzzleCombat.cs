@@ -11,7 +11,8 @@ using Random = UnityEngine.Random;
 
 public class puzzleCombat : MonoBehaviour
 {
-    private String _nextNode;
+    private String _nextNodeWin;
+    private String _nextNodeLose;
     private Character _enemy;
     public TextMeshProUGUI enemyName;
     private float hplayer = 100;
@@ -38,18 +39,15 @@ public class puzzleCombat : MonoBehaviour
     
     //para pruebas
     public Character ch1;
-    private void Awake()
-    {
-
-        ActivatePuzzle(ch1, "");
-    }
-
+  
     private int _decisionEnemy = 0;
     private string _fraseEnemigo;
-    public void ActivatePuzzle(Character enemy,string nextNode)
+    public void ActivatePuzzle(Character enemy,string nextNodeWinBattle,string nextNodeLoseBattle)
     {
+        gameObject.SetActive(true);
         _enemy = enemy;
-        _nextNode = nextNode;
+        _nextNodeWin = nextNodeWinBattle;
+        _nextNodeLose = nextNodeLoseBattle;
         hplayer = 100;
         hpenemy = 100;
         enemyName.text = enemy.NameText;
@@ -83,7 +81,7 @@ public class puzzleCombat : MonoBehaviour
 
     public void DesactivatePuzle()
     {
-        _nextNode = "";
+        _nextNodeWin = "";
         gameObject.SetActive(false);
     }
 
@@ -220,20 +218,26 @@ public class puzzleCombat : MonoBehaviour
             }
             else
             {
-                ResetCombat();
+                //ResetCombat();
+                PlayerLose();
             }
         }
     }
 
     public void PlayerWin()
     {
-        FlowChartManager.Instance.CallBlock(_nextNode);
+        FlowChartManager.Instance.CallBlock(_nextNodeWin);
         DesactivatePuzle();
     }
 
+    public void PlayerLose()
+    {
+        FlowChartManager.Instance.CallBlock(_nextNodeLose);
+        DesactivatePuzle();
+    }
     public void ResetCombat()
     {
-        ActivatePuzzle(_enemy,_nextNode);
+        ActivatePuzzle(_enemy,_nextNodeWin,_nextNodeLose);
     }
     public void SetHealhBar()
     {
