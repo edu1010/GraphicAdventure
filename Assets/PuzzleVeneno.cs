@@ -12,11 +12,13 @@ public class PuzzleVeneno : MonoBehaviour
     private String _nextNode;
     public void OpenPage()
     {
-        _animator.SetTrigger("Open");
+        
+        _animator.SetBool("Open",true);
     }
  public void ClosePage()
     {
-        _animator.SetTrigger("Close");
+        
+        _animator.SetBool("Open",false);
     }
 
     public void ActivatePuzzle(String code,string nextNode)

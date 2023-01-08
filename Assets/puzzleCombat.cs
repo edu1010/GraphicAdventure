@@ -52,7 +52,7 @@ public class puzzleCombat : MonoBehaviour
   
     private int _decisionEnemy = 0;
     private string _fraseEnemigo;
-    public void ActivatePuzzle(Character enemy,string nextNodeWinBattle,string nextNodeLoseBattle,bool James)
+    public void ActivatePuzzle(Character enemy,string nextNodeWinBattle,string nextNodeLoseBattle,bool James, float MaxTimeToAnswer)
     {
         gameObject.SetActive(true);
         _enemy = enemy;
@@ -77,6 +77,7 @@ public class puzzleCombat : MonoBehaviour
             frasesGolpeEnemy = frasesGolpeRyusuke  ;
             frasesPatadaEnemy   = frasesPatadaRyusuke ;
         }
+        ChangeMaxTimeFromFlowchart(MaxTimeToAnswer);
         SetHealhBar();
         BucleConversationStart();
     }
@@ -84,6 +85,7 @@ public class puzzleCombat : MonoBehaviour
     public void BucleConversationStart()
     {
         _decisionEnemy = Random.Range(0, 3);
+        restTime = true;
         Debug.Log("decision enemy "+_decisionEnemy);
         switch (_decisionEnemy)
         {
@@ -152,7 +154,7 @@ public class puzzleCombat : MonoBehaviour
             {
                 PlayerAnswer(Random.Range(0, 3));
                 _elapsedTime = 0;
-                restTime = false;
+                //restTime = false;
             }
         }
     }
@@ -175,7 +177,6 @@ public class puzzleCombat : MonoBehaviour
     }
     private void PlayerAnswer(AttackType playerAttack)
     {
-        restTime = false;
         _elapsedTime = 0;
         switch (playerAttack)
         {
@@ -266,7 +267,7 @@ public class puzzleCombat : MonoBehaviour
     }
     public void ResetCombat()
     {
-        ActivatePuzzle(_enemy,_nextNodeWin,_nextNodeLose,_james);
+        ActivatePuzzle(_enemy,_nextNodeWin,_nextNodeLose,_james,MaxTime);
     }
     public void SetHealhBar()
     {

@@ -39294,7 +39294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7f80c7c7556f53429dbf20379ef91a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fichaDown: 102
+  fichas: {fileID: 676744292}
 --- !u!1 &800712301
 GameObject:
   m_ObjectHideFlags: 0
