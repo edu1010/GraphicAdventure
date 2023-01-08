@@ -42,8 +42,14 @@ public class BlackBoardPuzzle1 : MonoBehaviour
     public GameObject posionDrinksParent;
     private Button[] _desativeBaseButtons,_desactiveExtraDrinks,_desactivePossionDrinks;
     public TextMeshProUGUI sizeDrinks;
+    public Image selectedImage;
     #endregion
 
+    public void ChangeImage(Sprite sp)
+    {
+        selectedImage.gameObject.SetActive(true);
+        selectedImage.sprite = sp;
+    }
     private void Start()
     {
         _desativeBaseButtons = baseDrinks.GetComponentsInChildren<Button>();

@@ -33,6 +33,7 @@ public class LiquidSelected : MonoBehaviour
     {
         BlackBoardPuzzle1.Instance.drinksNameText.text = drinkName;
         BlackBoardPuzzle1.Instance.drinksDescriptionText.text = drinkDescription;
+        BlackBoardPuzzle1.Instance.ChangeImage(image);
         if (!isPossion)
         { 
             if (isBase)
