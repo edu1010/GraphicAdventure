@@ -25933,7 +25933,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -170.56073
     y: -349.17126
-    width: 82.94118
+    width: 81.14755
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -26000,7 +26000,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -61.23024
     y: -297.6334
-    width: 175.88239
+    width: 171.31152
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26080,7 +26080,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -325.68182
     y: -301.83176
-    width: 138.23532
+    width: 135.24594
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26156,7 +26156,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -191.67633
     y: -232.0134
-    width: 128.82355
+    width: 125.40987
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26409,7 +26409,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -215.2716
     y: -152.68227
-    width: 180.58826
+    width: 176.22955
     height: 40
   tint: {r: 0.114142045, g: 0.88815403, b: 0.8962264, a: 1}
   useCustomTint: 1
@@ -26522,7 +26522,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -355.70447
     y: -100.52834
-    width: 172.35297
+    width: 168.03284
     height: 40
   tint: {r: 0.06162728, g: 0.7830189, b: 0, a: 1}
   useCustomTint: 1
@@ -26700,7 +26700,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -21.172974
     y: -111.015564
-    width: 151.17648
+    width: 148.36069
     height: 40
   tint: {r: 1, g: 0, b: 0, a: 1}
   useCustomTint: 1
@@ -27078,7 +27078,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -201.24596
     y: 84.09288
-    width: 140.58826
+    width: 136.88528
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27248,7 +27248,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -203.3603
     y: -33.20254
-    width: 142.9412
+    width: 140.16397
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28739,7 +28739,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -328.62033
     y: 24.118633
-    width: 147.64708
+    width: 143.44266
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28809,7 +28809,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -175.53748
     y: 155.7642
-    width: 84.11765
+    width: 81.14755
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -28875,7 +28875,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -114.02494
     y: 224.03223
-    width: 146.47061
+    width: 141.80331
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29005,7 +29005,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -311.5603
     y: 218.77809
-    width: 178.23532
+    width: 172.95087
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29445,7 +29445,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -33.756287
     y: 24.083557
-    width: 145.29413
+    width: 141.80331
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29548,7 +29548,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -171.8217
     y: 392.7793
-    width: 125.29413
+    width: 120.49183
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29669,7 +29669,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -220.34506
     y: 776.8177
-    width: 153.52943
+    width: 145.082
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -30023,7 +30023,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -45.311398
     y: 496.25345
-    width: 192.35297
+    width: 184.42628
     height: 40
   tint: {r: 1, g: 0, b: 0, a: 1}
   useCustomTint: 1
@@ -30084,7 +30084,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -229.13892
     y: 440.57056
-    width: 168.82355
+    width: 163.11479
     height: 40
   tint: {r: 0.06162728, g: 0.7830189, b: 0, a: 1}
   useCustomTint: 1
@@ -30144,7 +30144,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -478.56375
     y: 473.31586
-    width: 212.35297
+    width: 204.09842
     height: 40
   tint: {r: 0.06162728, g: 0.7830189, b: 0, a: 1}
   useCustomTint: 1
@@ -30201,7 +30201,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -197.33217
     y: 514.82074
-    width: 126.470604
+    width: 120.49183
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -30262,7 +30262,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -110.020065
     y: 573.76086
-    width: 138.23532
+    width: 133.6066
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -30312,7 +30312,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -199.88298
     y: 642.0238
-    width: 138.23532
+    width: 133.6066
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -30370,7 +30370,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -90.16906
     y: 694.57495
-    width: 154.7059
+    width: 146.72134
     height: 40
   tint: {r: 0.9176471, g: 0, b: 0, a: 1}
   useCustomTint: 1
@@ -30505,7 +30505,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -328.50125
     y: 701.46594
-    width: 151.17648
+    width: 145.082
     height: 40
   tint: {r: 0.058823533, g: 0.73333335, b: 0, a: 1}
   useCustomTint: 1
@@ -31800,7 +31800,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -323.47736
     y: 574.345
-    width: 160.58826
+    width: 153.27872
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -32152,7 +32152,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -360.36185
     y: 1152.0522
-    width: 99.41177
+    width: 95.90166
     height: 40
   tint: {r: 0.04705883, g: 0.61960787, b: 0, a: 1}
   useCustomTint: 1
@@ -32340,7 +32340,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 115.972984
     y: 924.41925
-    width: 181.76472
+    width: 174.59021
     height: 40
   tint: {r: 1, g: 0, b: 0, a: 1}
   useCustomTint: 1
@@ -32408,7 +32408,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 104.463524
     y: 1003.91016
-    width: 210.00003
+    width: 197.54103
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -32457,7 +32457,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -126.93721
     y: 995.12164
-    width: 171.17648
+    width: 161.47545
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -32507,7 +32507,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -405.9812
     y: 923.86194
-    width: 202.94121
+    width: 194.26234
     height: 40
   tint: {r: 0.058823533, g: 0.74509805, b: 0, a: 1}
   useCustomTint: 1
@@ -32575,7 +32575,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -423.5685
     y: 996.40045
-    width: 231.1765
+    width: 217.21318
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -32624,7 +32624,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -663.32666
     y: 989.8071
-    width: 192.35297
+    width: 181.14758
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -32810,7 +32810,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -673.34595
     y: 924.8384
-    width: 240
+    width: 238.52466
     height: 40
   tint: {r: 0.058823533, g: 0.7254902, b: 0, a: 1}
   useCustomTint: 1
@@ -33424,7 +33424,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -147.23485
     y: 928.4022
-    width: 228.82356
+    width: 218.85252
     height: 40
   tint: {r: 1, g: 0, b: 0, a: 1}
   useCustomTint: 1
@@ -34039,16 +34039,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -167.1212
-    y: -570.3938
-    width: 85.29413
+    x: -165.85538
+    y: -571.6596
+    width: 82.786896
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
   itemId: 469
   blockName: Day 0
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 216937834}
   commandList:
   - {fileID: 216937615}
   - {fileID: 216937608}
@@ -34516,7 +34516,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -12.8232155
     y: 431.90097
-    width: 135.88237
+    width: 133.6066
     height: 40
   tint: {r: 0.114142045, g: 0.88815403, b: 0.8962264, a: 1}
   useCustomTint: 1
@@ -36994,7 +36994,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -225.00076
     y: 841.1968
-    width: 162.9412
+    width: 156.55742
     height: 40
   tint: {r: 0.114142045, g: 0.88815403, b: 0.8962264, a: 1}
   useCustomTint: 1
@@ -37372,7 +37372,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1040.9468
     y: -654.9948
-    width: 126.470604
+    width: 122.13117
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37399,7 +37399,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 85.110245
     y: -571.2079
-    width: 137.05884
+    width: 133.6066
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37448,7 +37448,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -498.7138
     y: -437.18106
-    width: 141.76472
+    width: 140.16397
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37475,7 +37475,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -496.97675
     y: -583.1902
-    width: 139.41177
+    width: 135.24594
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37505,7 +37505,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 75.169655
     y: -504.19733
-    width: 205.29414
+    width: 199.18039
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37535,7 +37535,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -312.45355
     y: -573.67114
-    width: 84.11765
+    width: 82.786896
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37665,7 +37665,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -52.019928
     y: -571.7863
-    width: 82.94118
+    width: 81.14755
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37769,7 +37769,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -168.87221
     y: -469.28467
-    width: 81.76471
+    width: 81.14755
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37868,7 +37868,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 70.98848
     y: -652.8247
-    width: 195.88239
+    width: 189.34431
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37923,7 +37923,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 558.77313
     y: -655.67816
-    width: 197.05885
+    width: 189.34431
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38002,7 +38002,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 794.06757
     y: -711.70593
-    width: 208.82356
+    width: 200.81973
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38255,7 +38255,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 314.13943
     y: -709.8773
-    width: 207.6471
+    width: 200.81973
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38531,7 +38531,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -310.6443
     y: -382.4051
-    width: 121.76472
+    width: 120.49183
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38835,7 +38835,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 353.51578
     y: -558.37134
-    width: 226.47063
+    width: 218.85252
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38888,7 +38888,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -798.4328
     y: -533.60645
-    width: 201.76474
+    width: 195.90169
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38992,7 +38992,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -800.39484
     y: -453.48727
-    width: 199.41179
+    width: 194.26234
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -39632,7 +39632,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -524.5919
     y: -645.9386
-    width: 206.47061
+    width: 200.81973
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -39687,7 +39687,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -800.8001
     y: -634.06586
-    width: 177.05884
+    width: 174.59021
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -39913,7 +39913,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -799.3707
     y: -684.38873
-    width: 227.6471
+    width: 220.49187
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -40168,7 +40168,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 355.04828
     y: -499.10535
-    width: 175.88239
+    width: 172.95087
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -41103,7 +41103,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -802.50476
     y: -583.9031
-    width: 195.88239
+    width: 189.34431
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -41466,7 +41466,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -200.32431
     y: 348.20795
-    width: 146.47061
+    width: 143.44266
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -42989,6 +42989,21 @@ MonoBehaviour:
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
+--- !u!114 &216937834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216937128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 216937598}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
 --- !u!1 &219207800
 GameObject:
   m_ObjectHideFlags: 0
@@ -49641,11 +49656,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1497695929308933780, guid: bec194a9ee213cd46a1634cf5b672a64, type: 3}
   m_PrefabInstance: {fileID: 266817543}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &723714803 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1661357795, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-  m_PrefabInstance: {fileID: 968057159}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &732087336
 GameObject:
   m_ObjectHideFlags: 0
@@ -50285,11 +50295,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 780112367}
   m_CullTransparentMesh: 1
---- !u!224 &782270335 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6385867635611821695, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-  m_PrefabInstance: {fileID: 968057159}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &788490996 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1497695929339584793, guid: bec194a9ee213cd46a1634cf5b672a64, type: 3}
@@ -50504,153 +50509,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &792586789
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 792586790}
-  - component: {fileID: 792586792}
-  - component: {fileID: 792586791}
-  m_Layer: 5
-  m_Name: Text (TMP) (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &792586790
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 792586789}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2027607973}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -89, y: 204}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &792586791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 792586789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "<b>Nombre:</b> \xD3scar Paz Garre.     \r\n<b>Aliases:</b> Echidna y Kamisama.
-    \r\n<b>Familia:</b> Todos muertos por causas desconocidas. \r\n<b>Descripci\xF3n:</b>
-    Nacido en 11/10/2200, Distrito 85, 1'7 metros, 75 kg, ojos y pelo marr\xF3n oscuro.\r\n<b>Asociados
-    Criminales:</b> Teo Sitj\xE0 (Cabecilla de una red de prost\xEDbulos), Lidia
-    \xC1lvarez (la loca de la katana) y Jose Antonio C\xE1novas (Corredor de apuestas
-    ilegales de carreras de naves).\r\n<b>Historial Criminal:</b> M\xFAltiples asesinatos
-    y ama\xF1o de partidos competitivos de League of Legends 20.\r\n<b>Modus Operandi:</b>
-    Jugador de un equipo de LoL, asesina a rivales peligrosos para asegurar la victoria.
-    Usa sus contactos para rastrear y espiar al objetivo, una vez conoce los patrones
-    de su d\xEDa a d\xEDa se infiltra en su casa y cuando la v\xEDctima vuelve lo
-    asesina estrangul\xE1ndolo con el cable del rat\xF3n.\r\n<b>Localizaciones:</b>
-    Kiyozaki\r\n<b>Negocios:</b> Participar en competiciones de League of Legends
-    20 y ama\xF1o de partidos del mismo"
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 95041b233c18dfa4ebef5a939a67c69f, type: 2}
-  m_sharedMaterial: {fileID: 6249996478568177692, guid: 95041b233c18dfa4ebef5a939a67c69f, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 21
-  m_fontSizeBase: 21
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 8
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: -130.05316, y: 58.53418, z: -311.30157, w: -523.7529}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &792586792
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 792586789}
-  m_CullTransparentMesh: 1
 --- !u!1 &798359712
 GameObject:
   m_ObjectHideFlags: 0
@@ -62388,124 +62246,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 436025238, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_text
-      value: "Alias: edu1010\n\nestado: \n<size=75%>Busqueda y captura</size>\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 436025238, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.w
-      value: -143.14478
-      objectReference: {fileID: 0}
-    - target: {fileID: 1249408408, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_text
-      value: "<b>Nombre:</b> Eduard Corral\r\n<b>Aliases:</b> edu1010\r\n<b>Familia:</b>
-        N/A\r\n<b>Descripci\xF3n:</b> Nacido en 12/06/2199, N/A, 1'8 metros, 80 kg,
-        Siempre lleva gafas hologr\xE1ficas. \r\n<b>Asociados Criminales:</b> N/A\r\n<b>Historial
-        Criminal:</b> Hackeo a diferentes sucursales y corporaciones. Sospechoso
-        de controlar diferentes personas a partir de los neurochips y desviar fondos
-        a distritos de bajos recursos.\r\n<b>Modus Operandi:</b> Utiliza gafas hologr\xE1ficas
-        para acceder a neurochips. Elmina las grabaciones en las que sale.\r\n<b>Localizaciones:</b>
-        N/A\r\n<b>Negocios:</b> Tr\xE1fico de datos. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 1249408408, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_fontSize
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 1249408408, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.w
-      value: -523.7529
-      objectReference: {fileID: 0}
-    - target: {fileID: 1249408408, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.x
-      value: -130.05316
-      objectReference: {fileID: 0}
-    - target: {fileID: 1249408408, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.y
-      value: 58.53418
-      objectReference: {fileID: 0}
-    - target: {fileID: 1249408408, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.z
-      value: -311.30157
-      objectReference: {fileID: 0}
-    - target: {fileID: 1249408408, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 1249408408, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634007715220, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_text
-      value: "Alias: edu1010\n\nestado: \n<size=75%>Busqueda y captura</size>\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634007715220, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.w
-      value: -143.14478
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634084009958, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_text
-      value: "<b>Nombre:</b> Eduard Corral\r\n<b>Aliases:</b> edu1010\r\n<b>Familia:</b>
-        N/A\r\n<b>Descripci\xF3n:</b> Nacido en 12/06/2199, N/A, 1'8 metros, 80 kg,
-        Siempre lleva gafas hologr\xE1ficas. \r\n<b>Asociados Criminales:</b> N/A\r\n<b>Historial
-        Criminal:</b> Hackeo a diferentes sucursales y corporaciones. Sospechoso
-        de controlar diferentes personas a partir de los neurochips y desviar fondos
-        a distritos de bajos recursos.\r\n<b>Modus Operandi:</b> Utiliza gafas hologr\xE1ficas
-        para acceder a neurochips. Elmina las grabaciones en las que sale.\r\n<b>Localizaciones:</b>
-        N/A\r\n<b>Negocios:</b> Tr\xE1fico de datos. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634084009958, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_fontSize
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634084009958, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.w
-      value: -523.7529
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634084009958, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.x
-      value: -130.05316
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634084009958, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.y
-      value: 58.53418
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634084009958, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.z
-      value: -311.30157
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634084009958, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634084009958, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634113425155, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634205793475, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_text
-      value: "Alias: edu1010\n\nestado: \n<size=75%>Busqueda y captura</size>\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634205793475, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.w
-      value: -143.14478
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634254451359, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_text
-      value: "Alias: edu1010\n\nestado: \n<size=75%>Busqueda y captura</size>\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634254451359, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.w
-      value: -143.14478
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634282607866, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -862
-      objectReference: {fileID: 0}
     - target: {fileID: 6385867634351195654, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -62593,273 +62333,6 @@ PrefabInstance:
     - target: {fileID: 6385867634351195658, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
       propertyPath: m_Name
       value: PuzzleOrdenador
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634351195658, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634519646817, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_text
-      value: "Alias: edu1010\n\nestado: \n<size=75%>Busqueda y captura</size>\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634519646817, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.w
-      value: -143.14478
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634831338054, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -862
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634881303222, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_text
-      value: "Alias: edu1010\n\nestado: \n<size=75%>Busqueda y captura</size>\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634881303222, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_fontSize
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634881303222, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.w
-      value: -143.14478
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634881303222, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_isRightToLeft
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867634881303222, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_enableAutoSizing
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635321097847, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_text
-      value: "<b>Nombre:</b> Eduard Corral\r\n<b>Aliases:</b> edu1010\r\n<b>Familia:</b>
-        N/A\r\n<b>Descripci\xF3n:</b> Nacido en 12/06/2199, N/A, 1'8 metros, 80 kg,
-        Siempre lleva gafas hologr\xE1ficas. \r\n<b>Asociados Criminales:</b> N/A\r\n<b>Historial
-        Criminal:</b> Hackeo a diferentes sucursales y corporaciones. Sospechoso
-        de controlar diferentes personas a partir de los neurochips y desviar fondos
-        a distritos de bajos recursos.\r\n<b>Modus Operandi:</b> Utiliza gafas hologr\xE1ficas
-        para acceder a neurochips. Elmina las grabaciones en las que sale.\r\n<b>Localizaciones:</b>
-        N/A\r\n<b>Negocios:</b> Tr\xE1fico de datos. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635321097847, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_fontSize
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635321097847, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.w
-      value: -523.7529
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635321097847, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.x
-      value: -130.05316
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635321097847, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.y
-      value: 58.53418
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635321097847, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.z
-      value: -311.30157
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635321097847, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635321097847, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635457991107, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_text
-      value: "<b>Nombre:</b> Eduard Corral\r\n<b>Aliases:</b> edu1010\r\n<b>Familia:</b>
-        N/A\r\n<b>Descripci\xF3n:</b> Nacido en 12/06/2199, N/A, 1'8 metros, 80 kg,
-        Siempre lleva gafas hologr\xE1ficas. \r\n<b>Asociados Criminales:</b> N/A\r\n<b>Historial
-        Criminal:</b> Hackeo a diferentes sucursales y corporaciones. Sospechoso
-        de controlar diferentes personas a partir de los neurochips y desviar fondos
-        a distritos de bajos recursos.\r\n<b>Modus Operandi:</b> Utiliza gafas hologr\xE1ficas
-        para acceder a neurochips. Elmina las grabaciones en las que sale.\r\n<b>Localizaciones:</b>
-        N/A\r\n<b>Negocios:</b> Tr\xE1fico de datos. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635457991107, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_fontSize
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635457991107, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.w
-      value: -523.7529
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635457991107, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.x
-      value: -130.05316
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635457991107, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.y
-      value: 58.53418
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635457991107, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.z
-      value: -311.30157
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635457991107, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635457991107, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_enableAutoSizing
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635457991107, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_VerticalAlignment
-      value: 256
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635457991107, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635611821684, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: Fichas.Array.size
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635611821684, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: Fichas.Array.data[5]
-      value: 
-      objectReference: {fileID: 2027607972}
-    - target: {fileID: 6385867635611821684, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: Fichas.Array.data[6]
-      value: 
-      objectReference: {fileID: 723714803}
-    - target: {fileID: 6385867635611821684, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: Fichas.Array.data[7]
-      value: 
-      objectReference: {fileID: 1268543419}
-    - target: {fileID: 6385867635611821694, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635630259426, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_text
-      value: "Alias: edu1010\n\nestado: \n<size=75%>Busqueda y captura</size>\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635630259426, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.w
-      value: -143.14478
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635679211198, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_text
-      value: "<b>Nombre:</b> Eduard Corral\r\n<b>Aliases:</b> edu1010\r\n<b>Familia:</b>
-        N/A\r\n<b>Descripci\xF3n:</b> Nacido en 12/06/2199, N/A, 1'8 metros, 80 kg,
-        Siempre lleva gafas hologr\xE1ficas. \r\n<b>Asociados Criminales:</b> N/A\r\n<b>Historial
-        Criminal:</b> Hackeo a diferentes sucursales y corporaciones. Sospechoso
-        de controlar diferentes personas a partir de los neurochips y desviar fondos
-        a distritos de bajos recursos.\r\n<b>Modus Operandi:</b> Utiliza gafas hologr\xE1ficas
-        para acceder a neurochips. Elmina las grabaciones en las que sale.\r\n<b>Localizaciones:</b>
-        N/A\r\n<b>Negocios:</b> Tr\xE1fico de datos. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635679211198, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_fontSize
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635679211198, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.w
-      value: -523.7529
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635679211198, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.x
-      value: -130.05316
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635679211198, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.y
-      value: 58.53418
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635679211198, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.z
-      value: -311.30157
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635679211198, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635679211198, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635729364775, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_text
-      value: "<b>Nombre:</b> Eduard Corral\r\n<b>Aliases:</b> edu1010\r\n<b>Familia:</b>
-        N/A\r\n<b>Descripci\xF3n:</b> Nacido en 12/06/2199, N/A, 1'8 metros, 80 kg,
-        Siempre lleva gafas hologr\xE1ficas. \r\n<b>Asociados Criminales:</b> N/A\r\n<b>Historial
-        Criminal:</b> Hackeo a diferentes sucursales y corporaciones. Sospechoso
-        de controlar diferentes personas a partir de los neurochips y desviar fondos
-        a distritos de bajos recursos.\r\n<b>Modus Operandi:</b> Utiliza gafas hologr\xE1ficas
-        para acceder a neurochips. Elmina las grabaciones en las que sale.\r\n<b>Localizaciones:</b>
-        N/A\r\n<b>Negocios:</b> Tr\xE1fico de datos. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635729364775, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_fontSize
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635729364775, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.w
-      value: -523.7529
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635729364775, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.x
-      value: -130.05316
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635729364775, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.y
-      value: 58.53418
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635729364775, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.z
-      value: -311.30157
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635729364775, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635729364775, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635744015446, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_text
-      value: "<b>Nombre:</b> Eduard Corral\r\n<b>Aliases:</b> edu1010\r\n<b>Familia:</b>
-        N/A\r\n<b>Descripci\xF3n:</b> Nacido en 12/06/2199, N/A, 1'8 metros, 80 kg,
-        Siempre lleva gafas hologr\xE1ficas. \r\n<b>Asociados Criminales:</b> N/A\r\n<b>Historial
-        Criminal:</b> Hackeo a diferentes sucursales y corporaciones. Sospechoso
-        de controlar diferentes personas a partir de los neurochips y desviar fondos
-        a distritos de bajos recursos.\r\n<b>Modus Operandi:</b> Utiliza gafas hologr\xE1ficas
-        para acceder a neurochips. Elmina las grabaciones en las que sale.\r\n<b>Localizaciones:</b>
-        N/A\r\n<b>Negocios:</b> Tr\xE1fico de datos. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635744015446, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_fontSize
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635744015446, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.w
-      value: -523.7529
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635744015446, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.x
-      value: -130.05316
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635744015446, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.y
-      value: 58.53418
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635744015446, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_margin.z
-      value: -311.30157
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635744015446, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385867635744015446, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
@@ -65313,11 +64786,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1497695928693582553, guid: bec194a9ee213cd46a1634cf5b672a64, type: 3}
   m_PrefabInstance: {fileID: 266817543}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1268543419 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6385867634663284412, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
-  m_PrefabInstance: {fileID: 968057159}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1276030313 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1497695929478743972, guid: bec194a9ee213cd46a1634cf5b672a64, type: 3}
@@ -67671,82 +67139,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1497695929484984393, guid: bec194a9ee213cd46a1634cf5b672a64, type: 3}
   m_PrefabInstance: {fileID: 266817543}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1534884490
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1534884491}
-  - component: {fileID: 1534884493}
-  - component: {fileID: 1534884492}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1534884491
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1534884490}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2027607973}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -190, y: 331}
-  m_SizeDelta: {x: 214.2392, y: 195.8863}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1534884492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1534884490}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4517d6625b8794546a46518d84847392, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1534884493
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1534884490}
-  m_CullTransparentMesh: 1
 --- !u!1 &1536300735
 GameObject:
   m_ObjectHideFlags: 0
@@ -97658,142 +97050,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1497695930233375245, guid: bec194a9ee213cd46a1634cf5b672a64, type: 3}
   m_PrefabInstance: {fileID: 266817543}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1761620738
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1761620739}
-  - component: {fileID: 1761620741}
-  - component: {fileID: 1761620740}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1761620739
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1761620738}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2027607973}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 46, y: 392}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1761620740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1761620738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "Alias: \n<size=70%>Echidna y Kamisama</size=75%>\n\nestado: \n<size=75%>Busqueda
-    y captura</size>\n"
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 95041b233c18dfa4ebef5a939a67c69f, type: 2}
-  m_sharedMaterial: {fileID: 6249996478568177692, guid: 95041b233c18dfa4ebef5a939a67c69f, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278225663
-  m_fontColor: {r: 1, g: 0.53926516, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 17
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -171.3258, w: -143.14478}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1761620741
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1761620738}
-  m_CullTransparentMesh: 1
 --- !u!1 &1766887090
 GameObject:
   m_ObjectHideFlags: 0
@@ -99479,7 +98735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1684932655}
+  selectedFlowchart: {fileID: 216937129}
 --- !u!4 &1946964536
 Transform:
   m_ObjectHideFlags: 1
@@ -100139,85 +99395,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2025649880}
-  m_CullTransparentMesh: 1
---- !u!1 &2027607972
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2027607973}
-  - component: {fileID: 2027607975}
-  - component: {fileID: 2027607974}
-  m_Layer: 5
-  m_Name: PanelOscar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &2027607973
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027607972}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1761620739}
-  - {fileID: 792586790}
-  - {fileID: 1534884491}
-  m_Father: {fileID: 782270335}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2027607974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027607972}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &2027607975
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027607972}
   m_CullTransparentMesh: 1
 --- !u!4 &2039149538 stripped
 Transform:
@@ -101085,12 +100262,16 @@ PrefabInstance:
       value: -637.10706
       objectReference: {fileID: 0}
     - target: {fileID: 7038349002893301342, guid: 29dd2295403fb934eacbe2f81ffebccc, type: 3}
+      propertyPath: eventHandler
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7038349002893301342, guid: 29dd2295403fb934eacbe2f81ffebccc, type: 3}
       propertyPath: nodeRect.width
-      value: 115.62502
+      value: 118.35446
       objectReference: {fileID: 0}
     - target: {fileID: 7038349002893301342, guid: 29dd2295403fb934eacbe2f81ffebccc, type: 3}
       propertyPath: commandList.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7038349002893301342, guid: 29dd2295403fb934eacbe2f81ffebccc, type: 3}
       propertyPath: commandList.Array.data[0]
@@ -101119,4 +100300,5 @@ PrefabInstance:
     - {fileID: 7038349002893301316, guid: 29dd2295403fb934eacbe2f81ffebccc, type: 3}
     - {fileID: 7038349002893301318, guid: 29dd2295403fb934eacbe2f81ffebccc, type: 3}
     - {fileID: 7038349002893301319, guid: 29dd2295403fb934eacbe2f81ffebccc, type: 3}
+    - {fileID: 7038349002893301337, guid: 29dd2295403fb934eacbe2f81ffebccc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 29dd2295403fb934eacbe2f81ffebccc, type: 3}
