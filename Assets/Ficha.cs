@@ -12,6 +12,7 @@ public class Ficha : MonoBehaviour
     public TextMeshProUGUI _nombteTMP;
     public void setParameters(string nombre,string description,Sprite sprite)
     {
+        _nombre = nombre;
         _nombteTMP.text = nombre;
         _description = description;
         _image.sprite = sprite;
