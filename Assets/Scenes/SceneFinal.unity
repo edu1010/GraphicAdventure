@@ -51261,6 +51261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -61874,7 +61875,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 557150685}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.7
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -62620,6 +62621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textDesc: {fileID: 1167104240}
+  goToDesactivate: {fileID: 676744292}
 --- !u!4 &897590486 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1497695928427825264, guid: bec194a9ee213cd46a1634cf5b672a64, type: 3}
@@ -63085,19 +63087,19 @@ PrefabInstance:
     - target: {fileID: 792586791, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
       propertyPath: m_text
       value: "<b>Nombre:</b> \xD3scar Paz Garre.\n     \r\n<b>Aliases:</b> Echidna
-        y Kamisama. \r\n\n<b>Familia:</b> Todos muertos por causas desconocidas.\n
-        \r\n<b>Descripci\xF3n:</b> Nacido en 11/10/2200, Distrito 85, 1'7 metros,
-        75 kg, ojos y pelo marr\xF3n oscuro.\r\n\n<b>Asociados Criminales:</b> Teo
-        Sitj\xE0 (Cabecilla de una red de prost\xEDbulos), Lidia \xC1lvarez (la loca
-        de la katana) y Jose Antonio C\xE1novas (l\xEDder de \"Los Habaneros\").\r\n\n<b>Historial
-        Criminal:</b> M\xFAltiples asesinatos y ama\xF1o de partidos competitivos
-        de League of Legends 20.\r\n\n<b>Modus Operandi:</b> Jugador de un equipo
-        de LoL, asesina a rivales peligrosos para asegurar la victoria. Usa sus contactos
-        para rastrear y espiar al objetivo, una vez conoce los patrones de su d\xEDa
-        a d\xEDa se infiltra en su casa y cuando la v\xEDctima vuelve lo asesina
-        estrangul\xE1ndolo con el cable del rat\xF3n.\r\n\n<b>Localizaciones:</b>
-        Kiyozaki Corporation.\n\n<b>Negocios:</b> Participar en competiciones de
-        League of Legends 20 y ama\xF1o de partidos del mismo"
+        y Kamisama. \r\n\n<b>Familia:</b> Todos muertos por causas desconocidas.\n\r\n<b>Descripci\xF3n:</b>
+        Nacido en 11/10/2200, Distrito 85, 1'7 metros, 75 kg, ojos y pelo marr\xF3n
+        oscuro.\r\n\n<b>Asociados Criminales:</b> Teo Sitj\xE0 (Cabecilla de una
+        red de prost\xEDbulos), Lidia \xC1lvarez (la loca de la katana) y Jose Antonio
+        C\xE1novas (l\xEDder de \"Los Habaneros\").\r\n\n<b>Historial Criminal:</b>
+        M\xFAltiples asesinatos y ama\xF1o de partidos competitivos de League of
+        Legends 20.\r\n\n<b>Modus Operandi:</b> Jugador de un equipo de LoL, asesina
+        a rivales peligrosos para asegurar la victoria. Usa sus contactos para rastrear
+        y espiar al objetivo, una vez conoce los patrones de su d\xEDa a d\xEDa se
+        infiltra en su casa y cuando la v\xEDctima vuelve lo asesina estrangul\xE1ndolo
+        con el cable del rat\xF3n.\r\n\n<b>Localizaciones:</b> Kiyozaki Corporation.\n\n<b>Negocios:</b>
+        Participar en competiciones de League of Legends 20 y ama\xF1o de partidos
+        del mismo"
       objectReference: {fileID: 0}
     - target: {fileID: 792586791, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
       propertyPath: m_fontSize
