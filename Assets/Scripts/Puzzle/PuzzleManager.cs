@@ -84,6 +84,7 @@ public class PuzzleManager : MonoBehaviour
                     
                     BlackBoardPuzzle1.Instance.DesactivePosion();
                     servedPossion = true;
+                    BlackBoardPuzzle1.Instance.possion = servedPossion;
                 }
                 break;
         }
