@@ -175,6 +175,7 @@ public class puzzleCombat : MonoBehaviour
                 break;
         }
     }
+    
     private void PlayerAnswer(AttackType playerAttack)
     {
         _elapsedTime = 0;
