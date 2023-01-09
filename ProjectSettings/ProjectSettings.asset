@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: edu1010developer
+  companyName: Kiyozaki Corporation
   productName: Proyecto Moirai
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
