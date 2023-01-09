@@ -3428,7 +3428,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -63}
+  m_AnchoredPosition: {x: 29.227, y: -63}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6385867634072103079
@@ -3459,7 +3459,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Citas imp
+  m_text: Calendario
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 95041b233c18dfa4ebef5a939a67c69f, type: 2}
   m_sharedMaterial: {fileID: 6249996478568177692, guid: 95041b233c18dfa4ebef5a939a67c69f, type: 2}
@@ -3522,7 +3522,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 4.5996094, w: -7.572693}
+  m_margin: {x: -56.426758, y: 0, z: 4.5996094, w: -7.572693}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3687,7 +3687,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6385867634113425180
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6106,7 +6106,7 @@ GameObject:
   - component: {fileID: 6385867634321540141}
   - component: {fileID: 6385867634321540140}
   m_Layer: 5
-  m_Name: Cita Medico (4)
+  m_Name: Reunion cuerpo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7008,7 +7008,7 @@ GameObject:
   - component: {fileID: 6385867634428962305}
   - component: {fileID: 6385867634428962304}
   m_Layer: 5
-  m_Name: Cita Medico (6)
+  m_Name: "Vacaciones que no cobr\xE9"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8080,7 +8080,7 @@ GameObject:
   - component: {fileID: 6385867634561674128}
   - component: {fileID: 6385867634561674135}
   m_Layer: 5
-  m_Name: Cita Medico (1)
+  m_Name: "Reuni\xF3n cuerpo 1"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12900,7 +12900,7 @@ GameObject:
   - component: {fileID: 6385867635173240849}
   - component: {fileID: 6385867635173240848}
   m_Layer: 5
-  m_Name: Cita Medico (3)
+  m_Name: Alimentar perro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16977,7 +16977,7 @@ GameObject:
   - component: {fileID: 6385867635719201264}
   - component: {fileID: 6385867635719201271}
   m_Layer: 5
-  m_Name: Fechas
+  m_Name: Calendario
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17614,9 +17614,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Vacaciones que no cobrare
-
-    1/8'
+  m_text: "Vacaciones que no cobr\xE9\n1/8"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 95041b233c18dfa4ebef5a939a67c69f, type: 2}
   m_sharedMaterial: {fileID: 6249996478568177692, guid: 95041b233c18dfa4ebef5a939a67c69f, type: 2}
@@ -17698,7 +17696,7 @@ GameObject:
   - component: {fileID: 6385867635879107146}
   - component: {fileID: 6385867635879107145}
   m_Layer: 5
-  m_Name: Cita Medico (5)
+  m_Name: Informe pericial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
