@@ -91,14 +91,17 @@ public class puzzleCombat : MonoBehaviour
         {
             case 0:
                 _fraseEnemigo = frasesGuardiaEnemy[Random.Range(0,frasesGuardiaEnemy.Count)];
+                enemyAttack = AttackType.Guardia;
                 SetConversation(AttackType.Guardia, _fraseEnemigo);
                 break;
             case 1:
                 _fraseEnemigo = frasesGolpeEnemy[Random.Range(0,frasesGolpeEnemy.Count)];
+                enemyAttack = AttackType.Golpe;
                 SetConversation(AttackType.Golpe, _fraseEnemigo);
                 break;
             case 2:
                 _fraseEnemigo = frasesPatadaEnemy[Random.Range(0,frasesPatadaEnemy.Count)];
+                enemyAttack = AttackType.Patada;
                 SetConversation(AttackType.Patada, _fraseEnemigo);
                 break;
         }
@@ -128,8 +131,8 @@ public class puzzleCombat : MonoBehaviour
     public void SetAnswers()
     {
         butonGuardia.text = frasesGuardia[Random.Range(0, frasesGuardia.Count-1)];
-        butonGolpe.text = frasesGolpe[Random.Range(0, frasesGuardia.Count-1)];
-        butonPatada.text = frasesPatada[Random.Range(0, frasesGuardia.Count-1)];
+        butonGolpe.text = frasesGolpe[Random.Range(0, frasesGolpe.Count-1)];
+        butonPatada.text = frasesPatada[Random.Range(0, frasesPatada.Count-1)];
         _elapsedTime = 0f;
        
         sliderTimer.value = MaxTime;
@@ -171,6 +174,7 @@ public class puzzleCombat : MonoBehaviour
                 PlayerAnswer(AttackType.Golpe);
                 break;
             case 2:
+                print("patada seleccion");
                 PlayerAnswer(AttackType.Patada);
                 break;
         }
@@ -178,6 +182,7 @@ public class puzzleCombat : MonoBehaviour
     
     private void PlayerAnswer(AttackType playerAttack)
     {
+        print("player contesta "+playerAttack);
         _elapsedTime = 0;
         switch (playerAttack)
         {
@@ -211,6 +216,7 @@ public class puzzleCombat : MonoBehaviour
 
                 if (enemyAttack == AttackType.Patada)
                 {
+                    print("patda vs golpe");
                     hpenemy -= 34;
                 }
                 break;
@@ -218,20 +224,29 @@ public class puzzleCombat : MonoBehaviour
 
                 if (enemyAttack == AttackType.Guardia)
                 {
+                    print("patada contra guardia");
+                    print(hplayer+" enemy: "+hpenemy );
                     hpenemy -= 34;
+                    print(hplayer+" enemy: "+hpenemy );
                 }
 
                 if (enemyAttack == AttackType.Golpe)
                 {
+                    print("patada contra golpe");
+                    print(hplayer+" enemy: "+hpenemy );
                     hplayer -= -34;
+                    print(hplayer+" enemy: "+hpenemy );
                 }
 
                 if (enemyAttack == AttackType.Patada)
                 {
-                    //hpenemy -= 10;
-                    //hplayer -= 10;
-                    //nada
+                    print("patada contra patada");
+                    print(hplayer+" enemy: "+hpenemy );
                 }
+                break;
+            default:
+                print("default");
+                print(hplayer+" enemy: "+hpenemy );
                 break;
         }
 
