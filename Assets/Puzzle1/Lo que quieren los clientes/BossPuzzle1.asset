@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4041ffd277f9b3e4991363b9b171bacb, type: 3}
   m_Name: BossPuzzle1
   m_EditorClassIdentifier: 
-  drinkBase: 2
-  drinkExtra: 2
+  drinkBase: 0
+  drinkExtra: 1
   image: {fileID: 0}
   cantidad: 1
   resultadoPositivo: 10.Boss correctPuzzleVeneno
