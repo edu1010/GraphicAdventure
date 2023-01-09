@@ -63966,6 +63966,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6385867634039152997, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867634072103077, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 29.227
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867634072103078, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_text
+      value: Calendario
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867634072103078, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_margin.x
+      value: -56.426758
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867634113425155, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867634113544045, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867634131323999, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867634153003902, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867634282274577, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867634321540114, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_Name
+      value: Reunion cuerpo
+      objectReference: {fileID: 0}
     - target: {fileID: 6385867634351195654, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -64053,6 +64093,70 @@ PrefabInstance:
     - target: {fileID: 6385867634351195658, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
       propertyPath: m_Name
       value: PuzzleOrdenador
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867634351195658, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867634378266224, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867634383479062, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867634428962310, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_Name
+      value: "Vacaciones que no cobr\xE9"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867634489772493, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867634561674133, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_Name
+      value: "Reuni\xF3n cuerpo 1"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867634916271805, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867634965559377, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867635173240854, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_Name
+      value: Alimentar perro
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867635281629737, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867635658841236, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867635719201269, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_Name
+      value: Calendario
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867635875920346, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_text
+      value: "Vacaciones que no cobr\xE9\n1/8"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867635879107151, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_Name
+      value: Informe pericial
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867636014002454, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385867636043310608, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42c0863f70b329b4187cc1af2f99ef81, type: 3}
